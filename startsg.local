@@ -2,5 +2,4 @@
 export MATLAB_PATH=/opt/Matlab
 export XILINX_PLATFORM=lin64
 export XILINX_PATH=/opt/Xilinx/14.7/ISE_DS
-export MLIB_DEVEL_PATH=/home/heystek/Xilinx_DSP_System/mlib_devel-roach2
 
