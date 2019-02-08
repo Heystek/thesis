@@ -1,0 +1,6 @@
+{
+  'addsub' => 'SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0',
+  'counter' => 'SELECT Binary_Counter virtex6 Xilinx,_Inc. 11.0',
+  'fir_compiler_v5_0' => 'SELECT FIR_Compiler virtex6 Xilinx,_Inc. 5.0',
+  'mult' => 'SELECT Multiplier virtex6 Xilinx,_Inc. 11.2'
+}

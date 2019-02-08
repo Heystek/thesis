@@ -1,0 +1,468 @@
+Release 14.7 - platgen Xilinx EDK 14.7 Build EDK_P.20131013
+ (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: platgen -p xc6vsx475tff1759-1 -lang vhdl -intstyle default -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+WARNING:EDK - INFO:Security:71 - If a license for part 'xc6vsx475t' is
+   available, it will be possible to use 'XPS_TDP' instead of 'XPS'.
+   WARNING:Security:42 - Your software subscription period has lapsed. Your
+   current version of Xilinx tools will continue to function, but you no longer
+   qualify for Xilinx software updates or new releases.
+
+
+Parse
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs ...
+
+Read MPD definitions ...
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_design_lo_0_Shared_BRAM - Superseded core for architecture 'virtex6sx'
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 325 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_design_lo_1_Shared_BRAM - Superseded core for architecture 'virtex6sx'
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 356 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_design_lo_2_Shared_BRAM - Superseded core for architecture 'virtex6sx'
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 387 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_design_lo_3_Shared_BRAM - Superseded core for architecture 'virtex6sx'
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 418 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_design_lo_0_Shared_BRAM - Superseded core for architecture 'virtex6sx'
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 325 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_design_lo_1_Shared_BRAM - Superseded core for architecture 'virtex6sx'
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 356 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_design_lo_2_Shared_BRAM - Superseded core for architecture 'virtex6sx'
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 387 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_design_lo_3_Shared_BRAM - Superseded core for architecture 'virtex6sx'
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 418 
+
+Overriding IP level properties ...
+
+Computing clock values...
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   window_design_lo_0_Shared_BRAM_ramif:bram_clk. Clock DRCs will not be
+   performed on this core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   window_design_lo_1_Shared_BRAM_ramif:bram_clk. Clock DRCs will not be
+   performed on this core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   window_design_lo_2_Shared_BRAM_ramif:bram_clk. Clock DRCs will not be
+   performed on this core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   window_design_lo_3_Shared_BRAM_ramif:bram_clk. Clock DRCs will not be
+   performed on this core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:1039 - Did not update the value for parameter:
+   window_design_lo_0_Shared_BRAM:c_opb_clk_period_ps. Top-level frequency could
+   not be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   window_design_lo_1_Shared_BRAM:c_opb_clk_period_ps. Top-level frequency could
+   not be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   window_design_lo_2_Shared_BRAM:c_opb_clk_period_ps. Top-level frequency could
+   not be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   window_design_lo_3_Shared_BRAM:c_opb_clk_period_ps. Top-level frequency could
+   not be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb0 - tool is overriding PARAMETER
+   C_NUM_MASTERS value to 1 -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/pcores/opb_
+   v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 74 
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb0 - tool is overriding PARAMETER
+   C_NUM_SLAVES value to 11 -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/pcores/opb_
+   v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 75 
+INFO:EDK:4130 - IPNAME: bram_block,
+   INSTANCE:window_design_lo_0_Shared_BRAM_ramblk - tool is overriding PARAMETER
+   C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/pcores/bram
+   _block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK:4130 - IPNAME: bram_block,
+   INSTANCE:window_design_lo_1_Shared_BRAM_ramblk - tool is overriding PARAMETER
+   C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/pcores/bram
+   _block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK:4130 - IPNAME: bram_block,
+   INSTANCE:window_design_lo_2_Shared_BRAM_ramblk - tool is overriding PARAMETER
+   C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/pcores/bram
+   _block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK:4130 - IPNAME: bram_block,
+   INSTANCE:window_design_lo_3_Shared_BRAM_ramblk - tool is overriding PARAMETER
+   C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/pcores/bram
+   _block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME: opb_v20, INSTANCE: opb0 - 1 master(s) : 11 slave(s) 
+
+Checking port drivers...
+WARNING:EDK:4181 - PORT: sys_clk90, CONNECTOR: sys_clk90 - floating connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 90 
+WARNING:EDK:4181 - PORT: sys_clk180, CONNECTOR: sys_clk180 - floating connection
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 91 
+WARNING:EDK:4181 - PORT: sys_clk270, CONNECTOR: sys_clk270 - floating connection
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 92 
+WARNING:EDK:4181 - PORT: sys_clk_lock, CONNECTOR: sys_clk_lock - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 93 
+WARNING:EDK:4181 - PORT: sys_clk2x, CONNECTOR: sys_clk2x - floating connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 94 
+WARNING:EDK:4181 - PORT: sys_clk2x90, CONNECTOR: sys_clk2x90 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 95 
+WARNING:EDK:4181 - PORT: sys_clk2x180, CONNECTOR: sys_clk2x180 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 96 
+WARNING:EDK:4181 - PORT: sys_clk2x270, CONNECTOR: sys_clk2x270 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 97 
+WARNING:EDK:4181 - PORT: aux_clk, CONNECTOR: aux_clk - floating connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 98 
+WARNING:EDK:4181 - PORT: aux_clk90, CONNECTOR: aux_clk90 - floating connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 99 
+WARNING:EDK:4181 - PORT: aux_clk180, CONNECTOR: aux_clk180 - floating connection
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 100 
+WARNING:EDK:4181 - PORT: aux_clk270, CONNECTOR: aux_clk270 - floating connection
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 101 
+WARNING:EDK:4181 - PORT: aux_clk2x, CONNECTOR: aux_clk2x - floating connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 102 
+WARNING:EDK:4181 - PORT: aux_clk2x90, CONNECTOR: aux_clk2x90 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 103 
+WARNING:EDK:4181 - PORT: aux_clk2x180, CONNECTOR: aux_clk2x180 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 104 
+WARNING:EDK:4181 - PORT: aux_clk2x270, CONNECTOR: aux_clk2x270 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 105 
+WARNING:EDK:4181 - PORT: idelay_rdy, CONNECTOR: idelay_rdy - floating connection
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 108 
+WARNING:EDK:4181 - PORT: clk_100, CONNECTOR: clk_100 - floating connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 110 
+WARNING:EDK:4181 - PORT: op_reset_o, CONNECTOR: sys_reset - floating connection
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 120 
+WARNING:EDK:4181 - PORT: soft_reset, CONNECTOR: soft_reset - floating connection
+   -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 170 
+WARNING:EDK:4181 - PORT: ctrl_clk90_out, CONNECTOR: adc0_clk90 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 276 
+WARNING:EDK:4181 - PORT: ctrl_clk180_out, CONNECTOR: adc0_clk180 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 280 
+WARNING:EDK:4181 - PORT: ctrl_clk270_out, CONNECTOR: adc0_clk270 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 281 
+WARNING:EDK:4181 - PORT: ctrl_dcm_locked, CONNECTOR: adc0_dcm_locked - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+   line 277 
+
+Performing Clock DRCs...
+INFO:EDK:4060 - INSTANCE: window_design_lo_0_Shared_BRAM, PARAMETER:
+   c_opb_clk_period_ps - Did not implement clock DRCs for the parameter.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: window_design_lo_1_Shared_BRAM, PARAMETER:
+   c_opb_clk_period_ps - Did not implement clock DRCs for the parameter.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: window_design_lo_2_Shared_BRAM, PARAMETER:
+   c_opb_clk_period_ps - Did not implement clock DRCs for the parameter.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: window_design_lo_3_Shared_BRAM, PARAMETER:
+   c_opb_clk_period_ps - Did not implement clock DRCs for the parameter.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+IPNAME:window_design INSTANCE:window_design_xsg_core_config -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 183 - Copying (BBD-specified) netlist files.
+IPNAME:adc_interface INSTANCE:window_design_adc -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 235 - Copying (BBD-specified) netlist files.
+
+Managing cache ...
+
+Elaborating instances ...
+IPNAME:bram_block INSTANCE:window_design_lo_0_Shared_BRAM_ramblk -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 318 - elaborating IP
+IPNAME:bram_block INSTANCE:window_design_lo_1_Shared_BRAM_ramblk -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 349 - elaborating IP
+IPNAME:bram_block INSTANCE:window_design_lo_2_Shared_BRAM_ramblk -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 380 - elaborating IP
+IPNAME:bram_block INSTANCE:window_design_lo_3_Shared_BRAM_ramblk -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 411 - elaborating IP
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 1.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 0.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:opb_adccontroller_0 -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 37 - Running XST synthesis
+INSTANCE:infrastructure_inst -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 71 - Running XST synthesis
+INSTANCE:reset_block_inst -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 113 - Running XST synthesis
+INSTANCE:opb0 -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 123 - Running XST synthesis
+INSTANCE:epb_opb_bridge_inst -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 132 - Running XST synthesis
+INSTANCE:epb_infrastructure_inst -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 149 - Running XST synthesis
+INSTANCE:sys_block_inst -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 158 - Running XST synthesis
+INSTANCE:window_design_xsg_core_config -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 183 - Running XST synthesis
+INSTANCE:window_design_adc -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 235 - Running XST synthesis
+INSTANCE:window_design_lo_0_shared_bram_ramif -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 306 - Running XST synthesis
+INSTANCE:window_design_lo_0_shared_bram_ramblk -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 318 - Running XST synthesis
+INSTANCE:window_design_lo_0_shared_bram -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 325 - Running XST synthesis
+INSTANCE:window_design_lo_1_shared_bram_ramif -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 337 - Running XST synthesis
+INSTANCE:window_design_lo_1_shared_bram_ramblk -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 349 - Running XST synthesis
+INSTANCE:window_design_lo_1_shared_bram -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 356 - Running XST synthesis
+INSTANCE:window_design_lo_2_shared_bram_ramif -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 368 - Running XST synthesis
+INSTANCE:window_design_lo_2_shared_bram_ramblk -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 380 - Running XST synthesis
+INSTANCE:window_design_lo_2_shared_bram -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 387 - Running XST synthesis
+INSTANCE:window_design_lo_3_shared_bram_ramif -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 399 - Running XST synthesis
+INSTANCE:window_design_lo_3_shared_bram_ramblk -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 411 - Running XST synthesis
+INSTANCE:window_design_lo_3_shared_bram -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 418 - Running XST synthesis
+INSTANCE:window_design_mixer_cnt -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 430 - Running XST synthesis
+INSTANCE:window_design_pol1_window1_dout -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 442 - Running XST synthesis
+INSTANCE:window_design_pol1_window1_sync -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 454 - Running XST synthesis
+INSTANCE:window_design_pol2_window1_dout -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 466 - Running XST synthesis
+INSTANCE:window_design_pol2_window1_sync -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 478 - Running XST synthesis
+
+Running NGCBUILD ...
+IPNAME:system_window_design_xsg_core_config_wrapper
+INSTANCE:window_design_xsg_core_config -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 183 - Running NGCBUILD
+IPNAME:system_window_design_adc_wrapper INSTANCE:window_design_adc -
+/home/heystek/heystek_thesis/thesis/window_design/XPS_ROACH2_base/system.mhs
+line 235 - Running NGCBUILD
+INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
+   If any constraint needs to be overridden, this should be done by modifying
+   the data/system.ucf file.
+
+Rebuilding cache ...
+
+Total run time: 183.00 seconds

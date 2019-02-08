@@ -1,0 +1,11 @@
+%basic FIR design
+N   = 5390;        % FIR filter order
+Fp  = 1e6;       % passband-edge frequency
+Fs  = 640e6;       % sampling frequency
+Rp  = 0.00057565; % Corresponds to 0.01 dB peak-to-peak ripple
+Rst = 1e-4;       % Corresponds to 80 dB stopband attenuation
+
+eqnum = firceqrip(N,Fp/(Fs/2),[Rp Rst],'passedge') % eqnum = vec of coeffs
+%fvtool(eqnum,'Fs',Fs,'Color','White') % Visualize filter
+
+firceqrip(5390,1e6/(800e6/2),[ 0.00057565 1e-4],'passedge')

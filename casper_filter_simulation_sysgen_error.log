@@ -1,0 +1,34 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator                        /opt/Xilinx/14.7/ISE_DS/ISE/sysgen
+Matlab 8.0.0.783 (R2012b)               /opt/Matlab
+ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: Design Rule Check Failed
+    Blocks: 'casper_filter_simulation/Gateway In5', et al.
+Error 0002: Design Rule Check Failed
+    Blocks: 'casper_filter_simulation/Gateway In', et al.
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'casper_filter_simulation/Gateway In5'
+  'casper_filter_simulation/Gateway In'
+
+Details:
+Gateway In named "casper_filter_simulation/Gateway In5" is
+connected to Gateway In named "casper_filter_simulation/Gateway In"
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'casper_filter_simulation/Gateway In'
+  'casper_filter_simulation/Gateway In5'
+
+Details:
+Gateway In named "casper_filter_simulation/Gateway In" is
+connected to Gateway In named "casper_filter_simulation/Gateway In5"
+--------------------------------------------------------------------------------

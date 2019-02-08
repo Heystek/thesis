@@ -1,0 +1,30 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator                        /opt/Xilinx/14.7/ISE_DS/ISE/sysgen
+Matlab 8.0.0.783 (R2012b)               /opt/Matlab
+ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: XObjectPool::Pool: lookup failed
+     Block: 'fir_simulation/FIR Compiler 5.0 '
+Error 0002: XObjectPool::Pool: lookup failed
+     Block: 'fir_simulation/Gateway Out'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'fir_simulation/FIR Compiler 5.0 '
+
+Details:
+XObjectPool::Pool: lookup failed
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'fir_simulation/Gateway Out'
+
+Details:
+XObjectPool::Pool: lookup failed
+--------------------------------------------------------------------------------

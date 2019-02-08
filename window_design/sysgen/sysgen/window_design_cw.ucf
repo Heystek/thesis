@@ -1,0 +1,18 @@
+
+
+# Global period constraint
+NET "clk" TNM_NET = "clk_d19e6a35";
+TIMESPEC "TS_clk_d19e6a35" = PERIOD "clk_d19e6a35" 6.25 ns HIGH 50 %;
+
+# ce_200_d19e6a35_group and inner group constraint
+NET "ce_200_sg_x2*" TNM_NET = "ce_200_d19e6a35_group";
+TIMESPEC "TS_ce_200_d19e6a35_group_to_ce_200_d19e6a35_group" = FROM "ce_200_d19e6a35_group" TO "ce_200_d19e6a35_group" 1.25 us;
+
+# Offset in constraints
+
+# Offset out constraints
+
+# Offset inout constraints
+
+# LOC constraints
+NET "clk" LOC = "d7hack";
