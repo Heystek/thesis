@@ -1,0 +1,2920 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator                        /opt/Xilinx/14.7/ISE_DS/ISE/sysgen
+Matlab 8.0.0.783 (R2012b)               /opt/Matlab
+ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Constant10'
+Error 0002: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Constant9'
+Error 0003: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Gateway Out'
+Error 0004: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Gateway Out1'
+Error 0005: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Mult1'
+Error 0006: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Mult16'
+Error 0007: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Mult2'
+Error 0008: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Mult3'
+Error 0009: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Reinterpret12'
+Error 0010: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Reinterpret9'
+Error 0011: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/add_sub'
+Error 0012: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/concat'
+Error 0013: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/const'
+Error 0014: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/convert_addr'
+Error 0015: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/lsw'
+Error 0016: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/manipulate'
+Error 0017: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/msw'
+Error 0018: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/mux'
+Error 0019: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/convert_addr'
+Error 0020: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/convert_din1'
+Error 0021: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/convert_we'
+Error 0022: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/add_sub'
+Error 0023: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/concat'
+Error 0024: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/const'
+Error 0025: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/convert_addr'
+Error 0026: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/lsw'
+Error 0027: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/manipulate'
+Error 0028: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/msw'
+Error 0029: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/mux'
+Error 0030: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/ram'
+Error 0031: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/sim_addr'
+Error 0032: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/sim_data_in'
+Error 0033: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/sim_data_out'
+Error 0034: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/sim_munge_in/reinterpret_out'
+Error 0035: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/sim_munge_out/reinterpret_out'
+Error 0036: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/mem/sim_we'
+Error 0037: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/munge_in/reinterpret_out'
+Error 0038: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/munge_out/reinterpret_out'
+Error 0039: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/window_model_Subsystem_lo_0_Shared_BRAM_addr'
+Error 0040: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/window_model_Subsystem_lo_0_Shared_BRAM_data_in'
+Error 0041: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/window_model_Subsystem_lo_0_Shared_BRAM_data_out'
+Error 0042: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/Shared_BRAM/window_model_Subsystem_lo_0_Shared_BRAM_we'
+Error 0043: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/cos_slice'
+Error 0044: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/delay32'
+Error 0045: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/delay33'
+Error 0046: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/delay34'
+Error 0047: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/delay35'
+Error 0048: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/delay36'
+Error 0049: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/delay37'
+Error 0050: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/delay38'
+Error 0051: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/delay39'
+Error 0052: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/delay80'
+Error 0053: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/delay81'
+Error 0054: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/delay82'
+Error 0055: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/delay83'
+Error 0056: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_0/sin_slice'
+Error 0057: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Constant10'
+Error 0058: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Constant9'
+Error 0059: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Gateway Out'
+Error 0060: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Gateway Out1'
+Error 0061: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Mult1'
+Error 0062: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Mult16'
+Error 0063: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Mult2'
+Error 0064: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Mult3'
+Error 0065: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Reinterpret12'
+Error 0066: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Reinterpret9'
+Error 0067: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/add_sub'
+Error 0068: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/concat'
+Error 0069: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/const'
+Error 0070: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/convert_addr'
+Error 0071: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/lsw'
+Error 0072: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/manipulate'
+Error 0073: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/msw'
+Error 0074: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/mux'
+Error 0075: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/convert_addr'
+Error 0076: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/convert_din1'
+Error 0077: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/convert_we'
+Error 0078: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/add_sub'
+Error 0079: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/concat'
+Error 0080: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/const'
+Error 0081: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/convert_addr'
+Error 0082: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/lsw'
+Error 0083: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/manipulate'
+Error 0084: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/msw'
+Error 0085: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/mux'
+Error 0086: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/ram'
+Error 0087: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/sim_addr'
+Error 0088: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/sim_data_in'
+Error 0089: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/sim_data_out'
+Error 0090: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/sim_munge_in/reinterpret_out'
+Error 0091: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/sim_munge_out/reinterpret_out'
+Error 0092: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/mem/sim_we'
+Error 0093: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/munge_in/reinterpret_out'
+Error 0094: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/munge_out/reinterpret_out'
+Error 0095: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/window_model_Subsystem_lo_2_Shared_BRAM_addr'
+Error 0096: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/window_model_Subsystem_lo_2_Shared_BRAM_data_in'
+Error 0097: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/window_model_Subsystem_lo_2_Shared_BRAM_data_out'
+Error 0098: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/Shared_BRAM/window_model_Subsystem_lo_2_Shared_BRAM_we'
+Error 0099: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/cos_slice'
+Error 0100: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/delay32'
+Error 0101: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/delay33'
+Error 0102: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/delay34'
+Error 0103: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/delay35'
+Error 0104: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/delay36'
+Error 0105: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/delay37'
+Error 0106: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/delay38'
+Error 0107: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/delay39'
+Error 0108: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/delay80'
+Error 0109: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/delay81'
+Error 0110: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/delay82'
+Error 0111: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/delay83'
+Error 0112: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_2/sin_slice'
+Error 0113: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Constant10'
+Error 0114: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Constant9'
+Error 0115: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Gateway Out'
+Error 0116: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Gateway Out1'
+Error 0117: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Mult1'
+Error 0118: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Mult16'
+Error 0119: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Mult2'
+Error 0120: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Mult3'
+Error 0121: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Reinterpret12'
+Error 0122: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Reinterpret9'
+Error 0123: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/add_sub'
+Error 0124: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/concat'
+Error 0125: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/const'
+Error 0126: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/convert_addr'
+Error 0127: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/lsw'
+Error 0128: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/manipulate'
+Error 0129: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/msw'
+Error 0130: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/mux'
+Error 0131: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/convert_addr'
+Error 0132: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/convert_din1'
+Error 0133: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/convert_we'
+Error 0134: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/add_sub'
+Error 0135: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/concat'
+Error 0136: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/const'
+Error 0137: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/convert_addr'
+Error 0138: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/lsw'
+Error 0139: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/manipulate'
+Error 0140: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/msw'
+Error 0141: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/mux'
+Error 0142: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/ram'
+Error 0143: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/sim_addr'
+Error 0144: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/sim_data_in'
+Error 0145: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/sim_data_out'
+Error 0146: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/sim_munge_in/reinterpret_out'
+Error 0147: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/sim_munge_out/reinterpret_out'
+Error 0148: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/mem/sim_we'
+Error 0149: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/munge_in/reinterpret_out'
+Error 0150: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/munge_out/reinterpret_out'
+Error 0151: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/window_model_Subsystem_lo_3_Shared_BRAM_addr'
+Error 0152: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/window_model_Subsystem_lo_3_Shared_BRAM_data_in'
+Error 0153: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/window_model_Subsystem_lo_3_Shared_BRAM_data_out'
+Error 0154: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/Shared_BRAM/window_model_Subsystem_lo_3_Shared_BRAM_we'
+Error 0155: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/cos_slice'
+Error 0156: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/delay32'
+Error 0157: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/delay33'
+Error 0158: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/delay34'
+Error 0159: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/delay35'
+Error 0160: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/delay36'
+Error 0161: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/delay37'
+Error 0162: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/delay38'
+Error 0163: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/delay39'
+Error 0164: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/delay80'
+Error 0165: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/delay81'
+Error 0166: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/delay82'
+Error 0167: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/delay83'
+Error 0168: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_3/sin_slice'
+Error 0169: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Constant10'
+Error 0170: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Constant9'
+Error 0171: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Gateway Out'
+Error 0172: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Gateway Out1'
+Error 0173: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Mult1'
+Error 0174: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Mult16'
+Error 0175: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Mult2'
+Error 0176: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Mult3'
+Error 0177: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Reinterpret12'
+Error 0178: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Reinterpret9'
+Error 0179: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/add_sub'
+Error 0180: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/concat'
+Error 0181: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/const'
+Error 0182: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/convert_addr'
+Error 0183: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/lsw'
+Error 0184: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/manipulate'
+Error 0185: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/msw'
+Error 0186: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/mux'
+Error 0187: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/convert_addr'
+Error 0188: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/convert_din1'
+Error 0189: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/convert_we'
+Error 0190: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/add_sub'
+Error 0191: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/concat'
+Error 0192: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/const'
+Error 0193: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/convert_addr'
+Error 0194: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/lsw'
+Error 0195: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/manipulate'
+Error 0196: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/msw'
+Error 0197: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/mux'
+Error 0198: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/ram'
+Error 0199: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/sim_addr'
+Error 0200: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/sim_data_in'
+Error 0201: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/sim_data_out'
+Error 0202: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/sim_munge_in/reinterpret_out'
+Error 0203: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/sim_munge_out/reinterpret_out'
+Error 0204: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/mem/sim_we'
+Error 0205: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/munge_in/reinterpret_out'
+Error 0206: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/munge_out/reinterpret_out'
+Error 0207: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/window_model_Subsystem_lo_4_Shared_BRAM_addr'
+Error 0208: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/window_model_Subsystem_lo_4_Shared_BRAM_data_in'
+Error 0209: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/window_model_Subsystem_lo_4_Shared_BRAM_data_out'
+Error 0210: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/Shared_BRAM/window_model_Subsystem_lo_4_Shared_BRAM_we'
+Error 0211: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/cos_slice'
+Error 0212: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/delay32'
+Error 0213: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/delay33'
+Error 0214: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/delay34'
+Error 0215: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/delay35'
+Error 0216: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/delay36'
+Error 0217: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/delay37'
+Error 0218: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/delay38'
+Error 0219: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/delay39'
+Error 0220: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/delay80'
+Error 0221: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/delay81'
+Error 0222: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/delay82'
+Error 0223: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/delay83'
+Error 0224: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'window_model/Subsystem/lo_4/sin_slice'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Constant10'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Constant9'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Gateway Out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Gateway Out1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Mult1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Mult16'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Mult2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Mult3'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Reinterpret12'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Reinterpret9'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/add_sub'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/concat'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/const'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/convert_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/lsw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/manipulate'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/msw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/calc_add/mux'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/convert_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/convert_din1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/convert_we'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/add_sub'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/concat'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/const'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/convert_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/lsw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/manipulate'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/msw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/calc_add/mux'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/ram'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/sim_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/sim_data_in'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/sim_data_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/sim_munge_in/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/sim_munge_out/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/mem/sim_we'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/munge_in/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/munge_out/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/window_model_Subsystem_lo_0_Shared_BRAM_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/window_model_Subsystem_lo_0_Shared_BRAM_data_in'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/window_model_Subsystem_lo_0_Shared_BRAM_data_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/Shared_BRAM/window_model_Subsystem_lo_0_Shared_BRAM_we'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/cos_slice'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/delay32'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/delay33'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/delay34'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/delay35'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/delay36'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/delay37'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/delay38'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/delay39'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/delay80'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/delay81'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/delay82'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/delay83'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_0/sin_slice'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Constant10'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Constant9'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Gateway Out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Gateway Out1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Mult1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Mult16'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Mult2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Mult3'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Reinterpret12'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Reinterpret9'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/add_sub'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/concat'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/const'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/convert_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/lsw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/manipulate'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/msw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/calc_add/mux'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/convert_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/convert_din1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/convert_we'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/add_sub'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/concat'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/const'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/convert_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/lsw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/manipulate'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/msw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/calc_add/mux'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/ram'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/sim_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/sim_data_in'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/sim_data_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/sim_munge_in/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/sim_munge_out/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/mem/sim_we'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/munge_in/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/munge_out/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/window_model_Subsystem_lo_2_Shared_BRAM_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/window_model_Subsystem_lo_2_Shared_BRAM_data_in'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/window_model_Subsystem_lo_2_Shared_BRAM_data_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/Shared_BRAM/window_model_Subsystem_lo_2_Shared_BRAM_we'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/cos_slice'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/delay32'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/delay33'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/delay34'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/delay35'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/delay36'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/delay37'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/delay38'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/delay39'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/delay80'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/delay81'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/delay82'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/delay83'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_2/sin_slice'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Constant10'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Constant9'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Gateway Out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Gateway Out1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Mult1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Mult16'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Mult2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Mult3'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Reinterpret12'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Reinterpret9'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/add_sub'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/concat'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/const'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/convert_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/lsw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/manipulate'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/msw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/calc_add/mux'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/convert_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/convert_din1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/convert_we'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/add_sub'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/concat'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/const'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/convert_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/lsw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/manipulate'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/msw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/calc_add/mux'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/ram'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/sim_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/sim_data_in'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/sim_data_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/sim_munge_in/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/sim_munge_out/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/mem/sim_we'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/munge_in/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/munge_out/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/window_model_Subsystem_lo_3_Shared_BRAM_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/window_model_Subsystem_lo_3_Shared_BRAM_data_in'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/window_model_Subsystem_lo_3_Shared_BRAM_data_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/Shared_BRAM/window_model_Subsystem_lo_3_Shared_BRAM_we'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/cos_slice'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/delay32'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/delay33'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/delay34'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/delay35'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/delay36'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/delay37'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/delay38'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/delay39'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/delay80'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/delay81'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/delay82'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/delay83'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_3/sin_slice'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Constant10'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Constant9'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Gateway Out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Gateway Out1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Mult1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Mult16'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Mult2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Mult3'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Reinterpret12'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Reinterpret9'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/add_sub'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/concat'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/const'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/convert_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/lsw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/manipulate'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/msw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/calc_add/mux'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/convert_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/convert_din1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/convert_we'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/add_sub'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/concat'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/const'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/convert_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/lsw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/manipulate'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/msw'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/calc_add/mux'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/ram'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/sim_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/sim_data_in'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/sim_data_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/sim_munge_in/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/sim_munge_out/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/mem/sim_we'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/munge_in/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/munge_out/reinterpret_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/window_model_Subsystem_lo_4_Shared_BRAM_addr'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/window_model_Subsystem_lo_4_Shared_BRAM_data_in'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/window_model_Subsystem_lo_4_Shared_BRAM_data_out'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/Shared_BRAM/window_model_Subsystem_lo_4_Shared_BRAM_we'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/cos_slice'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/delay32'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/delay33'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/delay34'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/delay35'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/delay36'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/delay37'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/delay38'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/delay39'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/delay80'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/delay81'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/delay82'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/delay83'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'window_model/Subsystem/lo_4/sin_slice'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
