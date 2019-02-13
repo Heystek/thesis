@@ -1,0 +1,19 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator                        /opt/Xilinx/14.7/ISE_DS/ISE/sysgen
+Matlab 8.0.0.783 (R2012b)               /opt/Matlab
+ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: Undriven input port
+     Block: 'local_oscilator_test_simulation/Subsystem/lo_2/Shared_BRAM1/convert_we'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'local_oscilator_test_simulation/Subsystem/lo_2/Shared_BRAM1/convert_we'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
