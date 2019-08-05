@@ -5,26 +5,18 @@ Matlab 8.0.0.783 (R2012b)               /opt/Matlab
 ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
 --------------------------------------------------------------------------------
 Summary of Errors:
-Error 0001: HDL simulation model compilation failed.
-ERROR:HDLCompile...
-     Block: 'window_design/FIR Compiler 5.0 '
+Error 0001: Invalid reinterpret detected:binary point must be less th...
+     Block: 'lo_values_test_v5/Subsystem/lo_1/Shared_BRAM/munge_in/reinterpret_out'
 --------------------------------------------------------------------------------
 
 Error 0001:
 
 Reported by:
-  'window_design/FIR Compiler 5.0 '
+  'lo_values_test_v5/Subsystem/lo_1/Shared_BRAM/munge_in/reinterpret_out'
 
 Details:
-HDL simulation model compilation failed.
-ERROR:HDLCompiler:533 -
-"/build/xfndry10/P.20131013/rtf/vhdl/src/XilinxCoreLib/fir_compiler_v5_0_sim_pkg.vhd"
-Line 5912: Index 5399 is out of array constraint 4031 downto 0
-for target status
-ERROR:Simulator:777 - Static elaboration of top level VHDL design
-unit xlisim_xlfir_compiler_a5932c3e4869a7f0e01f02a8dd8fae79 in
-library work failed
-
-Error occurred during "Simulation Initialization".
+Invalid reinterpret detected:binary point must be less than or
+equal to the number of bits
+Error occurred during "Rate and Type Error Checking".
 
 --------------------------------------------------------------------------------
