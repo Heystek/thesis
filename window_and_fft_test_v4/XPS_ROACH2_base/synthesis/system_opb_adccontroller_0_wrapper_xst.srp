@@ -1,0 +1,1021 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/synthesis/xst_temp_dir/
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_opb_adccontroller_0_wrapper_xst.prj"
+Verilog Include Directory          : {"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc6vsx475tff1759-1
+Output File Name                   : "../implementation/system_opb_adccontroller_0_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_opb_adccontroller_0_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/verilog/adc_config_mux.v" into library opb_adccontroller_v1_00_a
+Parsing module <adc_config_mux>.
+WARNING:HDLCompiler:924 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/verilog/adc_config_mux.v" Line 178: Attribute target identifier dcm_reg not found in this scope
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/proc_common_pkg.vhd" into library proc_common_v2_00_a
+Parsing package <proc_common_pkg>.
+Parsing package body <proc_common_pkg>.
+Parsing VHDL file "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/user_logic.vhd" into library opb_adccontroller_v1_00_a
+Parsing entity <user_logic>.
+Parsing architecture <IMP> of entity <user_logic>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/ipif_pkg.vhd" into library proc_common_v2_00_a
+Parsing package <ipif_pkg>.
+Parsing package body <ipif_pkg>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/reset_mir.vhd" into library opb_ipif_v3_01_a
+Parsing entity <reset_mir>.
+Parsing architecture <implementation> of entity <reset_mir>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/direct_path_cntr_ai.vhd" into library proc_common_v2_00_a
+Parsing entity <direct_path_cntr_ai>.
+Parsing architecture <imp> of entity <direct_path_cntr_ai>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/brst_addr_cntr.vhd" into library opb_ipif_v3_01_a
+Parsing entity <brst_addr_cntr>.
+Parsing architecture <implementation> of entity <brst_addr_cntr>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_flex_addr_cntr.vhd" into library opb_ipif_v3_01_a
+Parsing entity <opb_flex_addr_cntr>.
+Parsing architecture <implementation> of entity <opb_flex_addr_cntr>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/brst_addr_cntr_reg.vhd" into library opb_ipif_v3_01_a
+Parsing entity <brst_addr_cntr_reg>.
+Parsing architecture <implementation> of entity <brst_addr_cntr_reg>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_be_gen.vhd" into library opb_ipif_v3_01_a
+Parsing entity <opb_be_gen>.
+Parsing architecture <implementation> of entity <opb_be_gen>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/srl_fifo3.vhd" into library opb_ipif_v3_01_a
+Parsing entity <srl_fifo3>.
+Parsing architecture <imp> of entity <srl_fifo3>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/counter_bit.vhd" into library proc_common_v2_00_a
+Parsing entity <counter_bit>.
+Parsing architecture <imp> of entity <counter_bit>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/counter.vhd" into library proc_common_v2_00_a
+Parsing entity <Counter>.
+Parsing architecture <imp> of entity <counter>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/write_buffer.vhd" into library opb_ipif_v3_01_a
+Parsing entity <write_buffer>.
+Parsing architecture <implementation> of entity <write_buffer>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/family.vhd" into library proc_common_v2_00_a
+Parsing package <family>.
+Parsing package body <family>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pselect.vhd" into library proc_common_v2_00_a
+Parsing entity <pselect>.
+Parsing architecture <imp> of entity <pselect>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/or_muxcy.vhd" into library proc_common_v2_00_a
+Parsing entity <or_muxcy>.
+Parsing architecture <implementation> of entity <or_muxcy>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/ipif_steer.vhd" into library proc_common_v2_00_a
+Parsing entity <IPIF_Steer>.
+Parsing architecture <IMP> of entity <ipif_steer>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/interrupt_control_v1_00_a/hdl/vhdl/interrupt_control.vhd" into library interrupt_control_v1_00_a
+Parsing entity <interrupt_control>.
+Parsing architecture <implementation> of entity <interrupt_control>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_dpram_select.vhd" into library proc_common_v2_00_a
+Parsing entity <pf_dpram_select>.
+Parsing architecture <implementation> of entity <pf_dpram_select>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_adder.vhd" into library proc_common_v2_00_a
+Parsing entity <pf_adder>.
+Parsing architecture <implementation> of entity <pf_adder>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/inferred_lut4.vhd" into library proc_common_v2_00_a
+Parsing entity <inferred_lut4>.
+Parsing architecture <implementation> of entity <inferred_lut4>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_counter_bit.vhd" into library proc_common_v2_00_a
+Parsing entity <pf_counter_bit>.
+Parsing architecture <implementation> of entity <pf_counter_bit>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_counter.vhd" into library proc_common_v2_00_a
+Parsing entity <pf_counter>.
+Parsing architecture <implementation> of entity <pf_counter>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_counter_top.vhd" into library proc_common_v2_00_a
+Parsing entity <pf_counter_top>.
+Parsing architecture <implementation> of entity <pf_counter_top>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_occ_counter.vhd" into library proc_common_v2_00_a
+Parsing entity <pf_occ_counter>.
+Parsing architecture <implementation> of entity <pf_occ_counter>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_occ_counter_top.vhd" into library proc_common_v2_00_a
+Parsing entity <pf_occ_counter_top>.
+Parsing architecture <implementation> of entity <pf_occ_counter_top>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/srl16_fifo.vhd" into library proc_common_v2_00_a
+Parsing entity <srl16_fifo>.
+Parsing architecture <implementation> of entity <srl16_fifo>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v1_01_b/hdl/vhdl/wrpfifo_top.vhd" into library wrpfifo_v1_01_b
+Parsing entity <wrpfifo_top>.
+Parsing architecture <implementation> of entity <wrpfifo_top>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v1_01_b/hdl/vhdl/rdpfifo_top.vhd" into library rdpfifo_v1_01_b
+Parsing entity <rdpfifo_top>.
+Parsing architecture <implementation> of entity <rdpfifo_top>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_bam.vhd" into library opb_ipif_v3_01_a
+Parsing entity <opb_bam>.
+Parsing architecture <implementation> of entity <opb_bam>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_ipif.vhd" into library opb_ipif_v3_01_a
+Parsing entity <opb_ipif>.
+Parsing architecture <imp> of entity <opb_ipif>.
+Parsing VHDL file "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" into library opb_adccontroller_v1_00_a
+Parsing entity <opb_adccontroller>.
+Parsing architecture <IMP> of entity <opb_adccontroller>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/or_gate.vhd" into library proc_common_v2_00_a
+Parsing entity <or_gate>.
+Parsing architecture <imp> of entity <or_gate>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/srl_fifo2.vhd" into library proc_common_v2_00_a
+Parsing entity <srl_fifo2>.
+Parsing architecture <imp> of entity <srl_fifo2>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pf_adder_bit.vhd" into library proc_common_v2_00_a
+Parsing entity <pf_adder_bit>.
+Parsing architecture <implementation> of entity <pf_adder_bit>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/valid_be.vhd" into library proc_common_v2_00_a
+Parsing entity <valid_be>.
+Parsing architecture <implementation> of entity <valid_be>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/ld_arith_reg.vhd" into library proc_common_v2_00_a
+Parsing entity <ld_arith_reg>.
+Parsing architecture <imp> of entity <ld_arith_reg>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/mux_onehot.vhd" into library proc_common_v2_00_a
+Parsing entity <mux_onehot>.
+Parsing architecture <imp> of entity <mux_onehot>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/down_counter.vhd" into library proc_common_v2_00_a
+Parsing entity <down_counter>.
+Parsing architecture <simulation> of entity <down_counter>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v1_01_b/hdl/vhdl/pf_dly1_mux.vhd" into library wrpfifo_v1_01_b
+Parsing entity <pf_dly1_mux>.
+Parsing architecture <implementation> of entity <pf_dly1_mux>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v1_01_b/hdl/vhdl/ipif_control_wr.vhd" into library wrpfifo_v1_01_b
+Parsing entity <ipif_control_wr>.
+Parsing architecture <implementation> of entity <ipif_control_wr>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/wrpfifo_v1_01_b/hdl/vhdl/wrpfifo_dp_cntl.vhd" into library wrpfifo_v1_01_b
+Parsing entity <wrpfifo_dp_cntl>.
+Parsing architecture <implementation> of entity <wrpfifo_dp_cntl>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v1_01_b/hdl/vhdl/ipif_control_rd.vhd" into library rdpfifo_v1_01_b
+Parsing entity <ipif_control_rd>.
+Parsing architecture <implementation> of entity <ipif_control_rd>.
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/rdpfifo_v1_01_b/hdl/vhdl/rdpfifo_dp_cntl.vhd" into library rdpfifo_v1_01_b
+Parsing entity <rdpfifo_dp_cntl>.
+Parsing architecture <implementation> of entity <rdpfifo_dp_cntl>.
+Parsing VHDL file "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/hdl/system_opb_adccontroller_0_wrapper.vhd" into library work
+Parsing entity <system_opb_adccontroller_0_wrapper>.
+Parsing architecture <STRUCTURE> of entity <system_opb_adccontroller_0_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <system_opb_adccontroller_0_wrapper> (architecture <STRUCTURE>) from library <work>.
+
+Elaborating entity <opb_adccontroller> (architecture <IMP>) with generics from library <opb_adccontroller_v1_00_a>.
+WARNING:HDLCompiler:871 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" Line 273: Using initial value "0" for zero_ip2bus_postedwrinh since it is never assigned
+WARNING:HDLCompiler:871 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" Line 274: Using initial value "00000000000000000000000000000000" for zero_ip2rfifo_data since it is never assigned
+WARNING:HDLCompiler:871 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" Line 276: Using initial value "0" for zero_ip2bus_intrevent since it is never assigned
+
+Elaborating entity <opb_ipif> (architecture <imp>) with generics from library <opb_ipif_v3_01_a>.
+
+Elaborating entity <opb_bam> (architecture <implementation>) with generics from library <opb_ipif_v3_01_a>.
+WARNING:HDLCompiler:1127 - "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_bam.vhd" Line 1069: Assignment to last_xferack_s0 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_bam.vhd" Line 1250: Assignment to bus2ip_rdreq ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_bam.vhd" Line 1251: Assignment to bus2ip_wrreq ignored, since the identifier is never used
+
+Elaborating entity <pselect> (architecture <imp>) with generics from library <proc_common_v2_00_a>.
+WARNING:HDLCompiler:89 - "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pselect.vhd" Line 114: <muxcy> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:1127 - "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_bam.vhd" Line 1382: Assignment to last_xferack_d2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_bam.vhd" Line 1881: Assignment to ipic_pstage_ce ignored, since the identifier is never used
+
+Elaborating entity <pselect> (architecture <imp>) with generics from library <proc_common_v2_00_a>.
+
+Elaborating entity <pselect> (architecture <imp>) with generics from library <proc_common_v2_00_a>.
+
+Elaborating entity <pselect> (architecture <imp>) with generics from library <proc_common_v2_00_a>.
+
+Elaborating entity <pselect> (architecture <imp>) with generics from library <proc_common_v2_00_a>.
+
+Elaborating entity <pselect> (architecture <imp>) with generics from library <proc_common_v2_00_a>.
+
+Elaborating entity <IPIF_Steer> (architecture <IMP>) with generics from library <proc_common_v2_00_a>.
+
+Elaborating entity <user_logic> (architecture <IMP>) with generics from library <opb_adccontroller_v1_00_a>.
+WARNING:HDLCompiler:89 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/user_logic.vhd" Line 118: <fd> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/user_logic.vhd" Line 126: <fde> remains a black-box since it has no binding entity.
+Going to verilog side to elaborate module adc_config_mux
+
+Elaborating module <adc_config_mux(INTERLEAVED=0)>.
+WARNING:HDLCompiler:413 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/verilog/adc_config_mux.v" Line 65: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/verilog/adc_config_mux.v" Line 94: Result of 20-bit expression is truncated to fit in 19-bit target.
+WARNING:HDLCompiler:413 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/verilog/adc_config_mux.v" Line 95: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/verilog/adc_config_mux.v" Line 145: Result of 32-bit expression is truncated to fit in 10-bit target.
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module adc_config_mux
+Back to vhdl to continue elaboration
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_opb_adccontroller_0_wrapper>.
+    Related source file is "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/hdl/system_opb_adccontroller_0_wrapper.vhd".
+    Summary:
+	no macro.
+Unit <system_opb_adccontroller_0_wrapper> synthesized.
+
+Synthesizing Unit <opb_adccontroller>.
+    Related source file is "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd".
+WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
+        C_BASEADDR = "00000000000000100000000000000000"
+        C_HIGHADDR = "00000000000000101111111111111111"
+        C_OPB_AWIDTH = 32
+        C_OPB_DWIDTH = 32
+        C_FAMILY = "virtex6"
+        AUTOCONFIG_0 = 1
+        INTERLEAVED_0 = 0
+        AUTOCONFIG_1 = 1
+        INTERLEAVED_1 = 0
+WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <Bus2IP_CS> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <Bus2IP_CE> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <Bus2IP_Addr> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <RFIFO2IP_Vacancy> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <WFIFO2IP_Data> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <WFIFO2IP_Occupancy> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <Bus2IP_AddrValid> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <Bus2IP_RNW> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <Bus2IP_Burst> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <RFIFO2IP_AlmostFull> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <RFIFO2IP_Full> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <RFIFO2IP_WrAck> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <WFIFO2IP_AlmostEmpty> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <WFIFO2IP_Empty> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <WFIFO2IP_RdAck> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <IP2INTC_Irpt> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/opb_adccontroller.vhd" line 306: Output port <Bus2IP_Freeze> of the instance <OPB_IPIF_I> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <opb_adccontroller> synthesized.
+
+Synthesizing Unit <opb_ipif>.
+    Related source file is "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_ipif.vhd".
+        C_ARD_ID_ARRAY = (100)
+        C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000000000000000000100000000000000000","0000000000000000000000000000000000000000000000101111111111111111")
+        C_ARD_DWIDTH_ARRAY = (32)
+        C_ARD_NUM_CE_ARRAY = (4)
+        C_ARD_DEPENDENT_PROPS_ARRAY = ((0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0))
+        C_PIPELINE_MODEL = 5
+        C_DEV_BLK_ID = 0
+        C_DEV_MIR_ENABLE = 0
+        C_OPB_AWIDTH = 32
+        C_OPB_DWIDTH = 32
+        C_FAMILY = "virtex6"
+        C_IP_INTR_MODE_ARRAY = (0)
+        C_DEV_BURST_ENABLE = 0
+        C_INCLUDE_ADDR_CNTR = 0
+        C_INCLUDE_WR_BUF = 0
+    Summary:
+	no macro.
+Unit <opb_ipif> synthesized.
+
+Synthesizing Unit <opb_bam>.
+    Related source file is "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_bam.vhd".
+        C_ARD_ID_ARRAY = (100)
+        C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000000000000000000100000000000000000","0000000000000000000000000000000000000000000000101111111111111111")
+        C_ARD_DWIDTH_ARRAY = (32)
+        C_ARD_NUM_CE_ARRAY = (4)
+        C_ARD_DEPENDENT_PROPS_ARRAY = ((0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0))
+        C_PIPELINE_MODEL = 5
+        C_DEV_BLK_ID = 0
+        C_DEV_MIR_ENABLE = 0
+        C_OPB_AWIDTH = 32
+        C_OPB_DWIDTH = 32
+        C_FAMILY = "virtex6"
+        C_IP_INTR_MODE_ARRAY = (0)
+        C_DEV_BURST_ENABLE = 0
+        C_INCLUDE_ADDR_CNTR = 0
+        C_INCLUDE_WR_BUF = 0
+WARNING:Xst:647 - Input <IP2RFIFO_Data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2Bus_IntrEvent> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <OPB_seqAddr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2Bus_AddrAck> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2RFIFO_WrMark> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2RFIFO_WrRelease> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2RFIFO_WrReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2RFIFO_WrRestore> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2WFIFO_RdMark> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2WFIFO_RdRelease> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2WFIFO_RdReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2WFIFO_RdRestore> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <IP2Bus_Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_bam.vhd" line 2149: Output port <Rd_Data_Out> of the instance <I_STEER_DATA> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_bam.vhd" line 2149: Output port <BE_Out> of the instance <I_STEER_DATA> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_bam.vhd" line 2175: Output port <Wr_Data_Out> of the instance <I_STEER_BE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_bam.vhd" line 2175: Output port <Rd_Data_Out> of the instance <I_STEER_BE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_bam.vhd" line 2198: Output port <Wr_Data_Out> of the instance <I_MIRROR> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_ipif_v3_01_a/hdl/vhdl/opb_bam.vhd" line 2198: Output port <BE_Out> of the instance <I_MIRROR> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <bus2ip_cs_hit_s0>.
+    Found 1-bit register for signal <opb_rnw_s0>.
+    Found 32-bit register for signal <opb_abus_s0>.
+    Found 32-bit register for signal <opb_dbus_s0>.
+    Found 4-bit register for signal <opb_be_s0>.
+    Found 1-bit register for signal <last_xferack_d1_s0>.
+    Found 1-bit register for signal <sln_xferack_s2>.
+    Found 1-bit register for signal <sln_errack_s2>.
+    Found 1-bit register for signal <sln_retry_s2>.
+    Found 1-bit register for signal <sln_toutsup_s2>.
+    Found 32-bit register for signal <sln_dbus_s2>.
+    Found 1-bit register for signal <postedwrack_s2>.
+    Found 1-bit register for signal <sln_xferack_s1_d1>.
+    Found 1-bit register for signal <sln_xferack_s1_d2>.
+    Found 1-bit register for signal <sln_retry_s1_d1>.
+    Found 1-bit register for signal <sln_retry_s1_d2>.
+    Found 1-bit register for signal <new_pw_s0_d1>.
+    Found 1-bit register for signal <bus2ip_cs_hit_s0_d1>.
+    Found 1-bit register for signal <last_xferack_d1>.
+    Found 1-bit register for signal <last_pw_xferack_d1>.
+    Found 1-bit register for signal <opb_select_s0>.
+    WARNING:Xst:2404 -  FFs/Latches <opb_seqaddr_d1<0:0>> (without init value) have a constant value of 0 in block <opb_bam>.
+    WARNING:Xst:2404 -  FFs/Latches <opb_seqaddr_s0<0:0>> (without init value) have a constant value of 0 in block <opb_bam>.
+    WARNING:Xst:2404 -  FFs/Latches <ip2bus_postedwrinh_s2<0><0:0>> (without init value) have a constant value of 0 in block <opb_bam>.
+    WARNING:Xst:2404 -  FFs/Latches <ip2bus_postedwrinh_s2_d1<0><0:0>> (without init value) have a constant value of 0 in block <opb_bam>.
+    WARNING:Xst:2404 -  FFs/Latches <ip2bus_postedwrinh_s2_d2<0><0:0>> (without init value) have a constant value of 0 in block <opb_bam>.
+    WARNING:Xst:2404 -  FFs/Latches <last_burstrd_xferack_d1<0:0>> (without init value) have a constant value of 0 in block <opb_bam>.
+    Summary:
+	inferred 117 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <opb_bam> synthesized.
+
+Synthesizing Unit <pselect_1>.
+    Related source file is "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pselect.vhd".
+        C_AB = 16
+        C_AW = 32
+        C_BAR = "00000000000000100000000000000000"
+WARNING:Xst:647 - Input <A<16:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+Unit <pselect_1> synthesized.
+
+Synthesizing Unit <pselect_2>.
+    Related source file is "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pselect.vhd".
+        C_AB = 0
+        C_AW = 16
+        C_BAR = "0000000000000000"
+WARNING:Xst:647 - Input <A> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <pselect_2> synthesized.
+
+Synthesizing Unit <pselect_3>.
+    Related source file is "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pselect.vhd".
+        C_AB = 2
+        C_AW = 2
+        C_BAR = "00"
+    Summary:
+Unit <pselect_3> synthesized.
+
+Synthesizing Unit <pselect_4>.
+    Related source file is "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pselect.vhd".
+        C_AB = 2
+        C_AW = 2
+        C_BAR = "01"
+    Summary:
+Unit <pselect_4> synthesized.
+
+Synthesizing Unit <pselect_5>.
+    Related source file is "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pselect.vhd".
+        C_AB = 2
+        C_AW = 2
+        C_BAR = "10"
+    Summary:
+Unit <pselect_5> synthesized.
+
+Synthesizing Unit <pselect_6>.
+    Related source file is "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/pselect.vhd".
+        C_AB = 2
+        C_AW = 2
+        C_BAR = "11"
+    Summary:
+Unit <pselect_6> synthesized.
+
+Synthesizing Unit <IPIF_Steer>.
+    Related source file is "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v2_00_a/hdl/vhdl/ipif_steer.vhd".
+        C_DWIDTH = 32
+        C_SMALLEST = 32
+        C_AWIDTH = 32
+WARNING:Xst:647 - Input <Addr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Decode_size> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <IPIF_Steer> synthesized.
+
+Synthesizing Unit <user_logic>.
+    Related source file is "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/vhdl/user_logic.vhd".
+        AUTOCONFIG_0 = 1
+        AUTOCONFIG_1 = 1
+        C_DWIDTH = 32
+        C_NUM_CE = 3
+WARNING:Xst:647 - Input <Bus2IP_Data<16:19>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Bus2IP_Data<24:29>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <adc1_3wire_start_int>.
+    Found 1-bit register for signal <adc0_ddrb_int>.
+    Found 1-bit register for signal <adc1_ddrb_int>.
+    Found 1-bit register for signal <adc0_modepin_int>.
+    Found 3-bit register for signal <adc0_address>.
+    Found 16-bit register for signal <adc0_data>.
+    Found 1-bit register for signal <adc0_psen>.
+    Found 1-bit register for signal <adc0_psincdec>.
+    Found 1-bit register for signal <adc0_3wire_request_int>.
+    Found 1-bit register for signal <adc1_modepin_int>.
+    Found 3-bit register for signal <adc1_address>.
+    Found 16-bit register for signal <adc1_data>.
+    Found 1-bit register for signal <adc1_psen>.
+    Found 1-bit register for signal <adc1_psincdec>.
+    Found 1-bit register for signal <adc1_3wire_request_int>.
+    Found 1-bit register for signal <adc0_adc1_sample_R>.
+    Found 1-bit register for signal <adc0_adc1_sample_RR>.
+    Found 1-bit register for signal <adc1_adc0_sample_R>.
+    Found 1-bit register for signal <adc1_adc0_sample_RR>.
+    Found 1-bit register for signal <adc0_3wire_start_int>.
+    Summary:
+	inferred  54 D-type flip-flop(s).
+	inferred  42 Multiplexer(s).
+Unit <user_logic> synthesized.
+
+Synthesizing Unit <adc_config_mux>.
+    Related source file is "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/opb_adccontroller_v1_00_a/hdl/verilog/adc_config_mux.v".
+        INTERLEAVED = 0
+    Found 5-bit register for signal <xfer_progress>.
+    Found 19-bit register for signal <shift_register>.
+    Found 3-bit register for signal <xfer_state>.
+    Found 3-bit register for signal <conf_state>.
+    Found 10-bit register for signal <clear_wait>.
+    Found 5-bit register for signal <mmcm_reset_extend>.
+    Found 1-bit register for signal <ddrb_reg>.
+    Found 7-bit register for signal <clk_counter>.
+    Found finite state machine <FSM_0> for signal <xfer_state>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 7                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <conf_state>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 7-bit adder for signal <clk_counter[6]_GND_299_o_add_4_OUT> created at line 65.
+    Found 5-bit adder for signal <xfer_progress[4]_GND_299_o_add_14_OUT> created at line 95.
+    Found 10-bit subtractor for signal <GND_299_o_GND_299_o_sub_37_OUT<9:0>> created at line 145.
+    Found 10-bit comparator greater for signal <mode_int> created at line 168
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  47 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  11 Multiplexer(s).
+	inferred   2 Finite State Machine(s).
+Unit <adc_config_mux> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 10-bit subtractor                                     : 2
+ 5-bit adder                                           : 2
+ 7-bit adder                                           : 2
+# Registers                                            : 53
+ 1-bit register                                        : 35
+ 10-bit register                                       : 2
+ 16-bit register                                       : 2
+ 19-bit register                                       : 2
+ 3-bit register                                        : 2
+ 32-bit register                                       : 3
+ 4-bit register                                        : 1
+ 5-bit register                                        : 4
+ 7-bit register                                        : 2
+# Comparators                                          : 2
+ 10-bit comparator greater                             : 2
+# Multiplexers                                         : 67
+ 1-bit 2-to-1 multiplexer                              : 49
+ 19-bit 2-to-1 multiplexer                             : 6
+ 32-bit 2-to-1 multiplexer                             : 6
+ 5-bit 2-to-1 multiplexer                              : 4
+ 7-bit 2-to-1 multiplexer                              : 2
+# FSMs                                                 : 4
+# Xors                                                 : 24
+ 1-bit xor2                                            : 24
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <adc_config_mux>.
+The following registers are absorbed into counter <clk_counter>: 1 register on signal <clk_counter>.
+The following registers are absorbed into counter <clear_wait>: 1 register on signal <clear_wait>.
+Unit <adc_config_mux> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 5-bit adder                                           : 2
+# Counters                                             : 4
+ 10-bit down counter                                   : 2
+ 7-bit up counter                                      : 2
+# Registers                                            : 237
+ Flip-Flops                                            : 237
+# Comparators                                          : 2
+ 10-bit comparator greater                             : 2
+# Multiplexers                                         : 65
+ 1-bit 2-to-1 multiplexer                              : 49
+ 19-bit 2-to-1 multiplexer                             : 6
+ 32-bit 2-to-1 multiplexer                             : 6
+ 5-bit 2-to-1 multiplexer                              : 4
+# FSMs                                                 : 4
+# Xors                                                 : 24
+ 1-bit xor2                                            : 24
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <opb_adccontroller_0/adc_config_mux_0/FSM_1> on signal <conf_state[1:3]> with user encoding.
+Optimizing FSM <opb_adccontroller_0/adc_config_mux_1/FSM_1> on signal <conf_state[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 010
+ 011   | 011
+ 100   | 100
+ 101   | 101
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <opb_adccontroller_0/adc_config_mux_0/FSM_0> on signal <xfer_state[1:3]> with user encoding.
+Optimizing FSM <opb_adccontroller_0/adc_config_mux_1/FSM_0> on signal <xfer_state[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 010
+ 011   | 011
+ 100   | 100
+ 101   | 101
+ 110   | 110
+-------------------
+
+Optimizing unit <system_opb_adccontroller_0_wrapper> ...
+
+Optimizing unit <opb_bam> ...
+
+Optimizing unit <pselect_1> ...
+
+Optimizing unit <user_logic> ...
+
+Optimizing unit <adc_config_mux> ...
+WARNING:Xst:1710 - FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_16> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_17> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_18> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_19> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_24> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_25> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_26> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_27> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_28> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_29> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_30> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_retry_s1_d1> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_toutsup_s2> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_retry_s2> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_errack_s2> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_16> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_17> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_18> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_19> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_24> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_25> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_26> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_27> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_28> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_29> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_0> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_1> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_2> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_3> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_4> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_5> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_6> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_7> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_8> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_9> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_10> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_11> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_12> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_13> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_14> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_15> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_16> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_17> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_18> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_19> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_20> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_21> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_22> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_23> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_24> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_25> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_26> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_27> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_30> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:2677 - Node <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_31> of sequential type is unconnected in block <system_opb_adccontroller_0_wrapper>.
+WARNING:Xst:1710 - FF/Latch <opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_retry_s1_d2> (without init value) has a constant value of 0 in block <system_opb_adccontroller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/mmcm_reset_extend_0> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_1/ddrb_reg> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clk_counter_0> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clk_counter_0> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clk_counter_1> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clk_counter_1> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clk_counter_2> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clk_counter_2> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clk_counter_3> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clk_counter_3> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clk_counter_4> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clk_counter_4> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clk_counter_5> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clk_counter_5> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clk_counter_6> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clk_counter_6> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clear_wait_0> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clear_wait_0> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clear_wait_1> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clear_wait_1> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clear_wait_2> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clear_wait_2> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clear_wait_3> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clear_wait_3> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clear_wait_4> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clear_wait_4> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_0/mmcm_reset_extend_0> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/ddrb_reg> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clear_wait_5> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clear_wait_5> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clear_wait_6> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clear_wait_6> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clear_wait_7> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clear_wait_7> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clear_wait_8> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clear_wait_8> 
+INFO:Xst:2261 - The FF/Latch <opb_adccontroller_0/adc_config_mux_1/clear_wait_9> in Unit <system_opb_adccontroller_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <opb_adccontroller_0/adc_config_mux_0/clear_wait_9> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_opb_adccontroller_0_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <system_opb_adccontroller_0_wrapper> :
+	Found 2-bit shift register for signal <opb_adccontroller_0/USER_LOGIC_I/adc1_adc0_sample_RR>.
+	Found 2-bit shift register for signal <opb_adccontroller_0/USER_LOGIC_I/adc0_adc1_sample_RR>.
+Unit <system_opb_adccontroller_0_wrapper> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 204
+ Flip-Flops                                            : 204
+# Shift Registers                                      : 2
+ 2-bit shift register                                  : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_opb_adccontroller_0_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 281
+#      GND                         : 1
+#      INV                         : 16
+#      LUT1                        : 1
+#      LUT2                        : 10
+#      LUT3                        : 26
+#      LUT4                        : 10
+#      LUT5                        : 22
+#      LUT6                        : 165
+#      MUXCY                       : 19
+#      VCC                         : 1
+#      XORCY                       : 10
+# FlipFlops/Latches                : 206
+#      FD                          : 67
+#      FDE                         : 4
+#      FDR                         : 35
+#      FDRE                        : 90
+#      FDSE                        : 10
+# Shift Registers                  : 2
+#      SRLC16E                     : 2
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vsx475tff1759-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             206  out of  595200     0%  
+ Number of Slice LUTs:                  252  out of  297600     0%  
+    Number used as Logic:               250  out of  297600     0%  
+    Number used as Memory:                2  out of  122240     0%  
+       Number used as SRL:                2
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    284
+   Number with an unused Flip Flop:      78  out of    284    27%  
+   Number with an unused LUT:            32  out of    284    11%  
+   Number of fully used LUT-FF pairs:   174  out of    284    61%  
+   Number of unique control sets:        15
+
+IO Utilization: 
+ Number of IOs:                         131
+ Number of bonded IOBs:                   0  out of    840     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                            | Load  |
+-----------------------------------+------------------------------------------------------------------+-------+
+adc1_psclk                         | NONE(opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/last_xferack_d1_s0)| 202   |
+adc1_clk                           | NONE(opb_adccontroller_0/USER_LOGIC_I/FD_ADC1_ADC0)              | 3     |
+adc0_clk                           | NONE(opb_adccontroller_0/USER_LOGIC_I/FD_ADC0_ADC1)              | 3     |
+-----------------------------------+------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 2.881ns (Maximum Frequency: 347.102MHz)
+   Minimum input arrival time before clock: 1.304ns
+   Maximum output required time after clock: 1.813ns
+   Maximum combinational path delay: 0.086ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'adc1_psclk'
+  Clock period: 2.881ns (frequency: 347.102MHz)
+  Total number of paths / destination ports: 4395 / 271
+-------------------------------------------------------------------------
+Delay:               2.881ns (Levels of Logic = 4)
+  Source:            opb_adccontroller_0/adc_config_mux_1/clk_counter_3 (FF)
+  Destination:       opb_adccontroller_0/adc_config_mux_1/xfer_progress_4 (FF)
+  Source Clock:      adc1_psclk rising
+  Destination Clock: adc1_psclk rising
+
+  Data Path: opb_adccontroller_0/adc_config_mux_1/clk_counter_3 to opb_adccontroller_0/adc_config_mux_1/xfer_progress_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              5   0.375   0.802  opb_adccontroller_0/adc_config_mux_1/clk_counter_3 (opb_adccontroller_0/adc_config_mux_1/clk_counter_3)
+     LUT5:I0->O            7   0.068   0.457  opb_adccontroller_0/adc_config_mux_1/Mcount_clk_counter_xor<6>121 (opb_adccontroller_0/adc_config_mux_0/Mcount_clk_counter_xor<6>12)
+     LUT6:I5->O           21   0.068   0.547  opb_adccontroller_0/adc_config_mux_1/Mmux_shift_register[18]_xfer_state[2]_mux_21_OUT1211 (opb_adccontroller_0/adc_config_mux_1/Mmux_shift_register[18]_xfer_state[2]_mux_21_OUT121)
+     LUT6:I5->O            1   0.068   0.417  opb_adccontroller_0/adc_config_mux_1/Mmux_xfer_progress[4]_xfer_state[2]_mux_22_OUT51 (opb_adccontroller_0/adc_config_mux_1/xfer_progress[4]_xfer_state[2]_mux_22_OUT<4>)
+     LUT3:I2->O            1   0.068   0.000  opb_adccontroller_0/adc_config_mux_1/xfer_progress_4_dpot (opb_adccontroller_0/adc_config_mux_1/xfer_progress_4_dpot)
+     FDRE:D                    0.011          opb_adccontroller_0/adc_config_mux_1/xfer_progress_4
+    ----------------------------------------
+    Total                      2.881ns (0.658ns logic, 2.223ns route)
+                                       (22.8% logic, 77.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'adc1_clk'
+  Clock period: 1.534ns (frequency: 651.890MHz)
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               1.534ns (Levels of Logic = 1)
+  Source:            opb_adccontroller_0/USER_LOGIC_I/FD_ADC1_HALF (FF)
+  Destination:       opb_adccontroller_0/USER_LOGIC_I/FD_ADC1_ADC0 (FF)
+  Source Clock:      adc1_clk rising
+  Destination Clock: adc1_clk rising
+
+  Data Path: opb_adccontroller_0/USER_LOGIC_I/FD_ADC1_HALF to opb_adccontroller_0/USER_LOGIC_I/FD_ADC1_ADC0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.375   0.405  opb_adccontroller_0/USER_LOGIC_I/FD_ADC1_HALF (opb_adccontroller_0/USER_LOGIC_I/adc1_toggle)
+     INV:I->O              2   0.086   0.405  opb_adccontroller_0/USER_LOGIC_I/not_adc1_toggle1_INV_0 (opb_adccontroller_0/USER_LOGIC_I/not_adc1_toggle)
+     FDE:CE                    0.263          opb_adccontroller_0/USER_LOGIC_I/FD_ADC1_ADC0
+    ----------------------------------------
+    Total                      1.534ns (0.724ns logic, 0.810ns route)
+                                       (47.2% logic, 52.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'adc0_clk'
+  Clock period: 1.534ns (frequency: 651.890MHz)
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               1.534ns (Levels of Logic = 1)
+  Source:            opb_adccontroller_0/USER_LOGIC_I/FD_ADC0_HALF (FF)
+  Destination:       opb_adccontroller_0/USER_LOGIC_I/FD_ADC0_ADC1 (FF)
+  Source Clock:      adc0_clk rising
+  Destination Clock: adc0_clk rising
+
+  Data Path: opb_adccontroller_0/USER_LOGIC_I/FD_ADC0_HALF to opb_adccontroller_0/USER_LOGIC_I/FD_ADC0_ADC1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.375   0.405  opb_adccontroller_0/USER_LOGIC_I/FD_ADC0_HALF (opb_adccontroller_0/USER_LOGIC_I/adc0_toggle)
+     INV:I->O              2   0.086   0.405  opb_adccontroller_0/USER_LOGIC_I/not_adc0_toggle1_INV_0 (opb_adccontroller_0/USER_LOGIC_I/not_adc0_toggle)
+     FDE:CE                    0.263          opb_adccontroller_0/USER_LOGIC_I/FD_ADC0_ADC1
+    ----------------------------------------
+    Total                      1.534ns (0.724ns logic, 0.810ns route)
+                                       (47.2% logic, 52.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'adc1_psclk'
+  Total number of paths / destination ports: 224 / 192
+-------------------------------------------------------------------------
+Offset:              1.304ns (Levels of Logic = 2)
+  Source:            OPB_Rst (PAD)
+  Destination:       opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_21 (FF)
+  Destination Clock: adc1_psclk rising
+
+  Data Path: OPB_Rst to opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_21
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT6:I0->O            1   0.068   0.778  opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_21_rstpot_SW0 (N91)
+     LUT6:I0->O            1   0.068   0.000  opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_21_rstpot (opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_21_rstpot)
+     FD:D                      0.011          opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_21
+    ----------------------------------------
+    Total                      1.304ns (0.526ns logic, 0.778ns route)
+                                       (40.3% logic, 59.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'adc1_psclk'
+  Total number of paths / destination ports: 72 / 38
+-------------------------------------------------------------------------
+Offset:              1.813ns (Levels of Logic = 2)
+  Source:            opb_adccontroller_0/adc_config_mux_1/clear_wait_7 (FF)
+  Destination:       adc0_modepin (PAD)
+  Source Clock:      adc1_psclk rising
+
+  Data Path: opb_adccontroller_0/adc_config_mux_1/clear_wait_7 to adc0_modepin
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q             5   0.375   0.805  opb_adccontroller_0/adc_config_mux_1/clear_wait_7 (opb_adccontroller_0/adc_config_mux_1/clear_wait_7)
+     LUT6:I0->O            2   0.068   0.497  opb_adccontroller_0/adc_config_mux_1/Mmux_mode_o11 (opb_adccontroller_0/adc_config_mux_0/Mmux_mode_o1)
+     LUT5:I3->O            0   0.068   0.000  opb_adccontroller_0/adc_config_mux_0/Mmux_mode_o13 (adc0_modepin)
+    ----------------------------------------
+    Total                      1.813ns (0.511ns logic, 1.302ns route)
+                                       (28.2% logic, 71.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               0.086ns (Levels of Logic = 1)
+  Source:            OPB_select (PAD)
+  Destination:       Sl_xferAck (PAD)
+
+  Data Path: OPB_select to Sl_xferAck
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT2:I1->O            0   0.068   0.000  opb_adccontroller_0/OPB_IPIF_I/OPB_BAM_I/Sln_xferAck1 (Sl_xferAck)
+    ----------------------------------------
+    Total                      0.086ns (0.086ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock adc0_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+adc0_clk       |    1.534|         |         |         |
+adc1_clk       |    0.785|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock adc1_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+adc0_clk       |    0.785|         |         |         |
+adc1_clk       |    1.534|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock adc1_psclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+adc0_clk       |    1.058|         |         |         |
+adc1_clk       |    1.058|         |         |         |
+adc1_psclk     |    2.881|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.30 secs
+ 
+--> 
+
+
+Total memory usage is 431764 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  101 (   0 filtered)
+Number of infos    :   43 (   0 filtered)
+

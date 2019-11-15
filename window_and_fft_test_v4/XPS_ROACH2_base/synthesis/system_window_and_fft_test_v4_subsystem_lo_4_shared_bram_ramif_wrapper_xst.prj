@@ -1,0 +1,2 @@
+VHDL bram_if_v1_00_a /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/bram_if_v1_00_a/hdl/vhdl/bram_if.vhd
+vhdl work ../hdl/system_window_and_fft_test_v4_subsystem_lo_4_shared_bram_ramif_wrapper.vhd

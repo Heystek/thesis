@@ -1,0 +1,120 @@
+#############################################################################
+##
+## IP Name  : window_and_fft_test_v4
+## Desc     : Automatically generated IP core wrapping a
+##            Simulink Xilinx System Generator netlist.
+##            Please do not modify by hand, this file will be erased
+##
+#############################################################################
+
+BEGIN window_and_fft_test_v4
+
+###################
+# Generic Options #
+###################
+OPTION IPTYPE = IP
+OPTION STYLE  = BLACKBOX
+
+###################
+# Clock port      #
+###################
+PORT clk = "", DIR = I, SIGIS = CLK, CLK_FREQ = 200000000
+
+###################
+# Interfaces      #
+###################
+
+# window_and_fft_test_v4/xsg_core_config
+
+# window_and_fft_test_v4/Subsystem/lo_1/Shared_BRAM
+PORT window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM_data_out = "", DIR = in, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM_addr = "", DIR = out, VEC = [9:0]
+PORT window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM_data_in = "", DIR = out, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM_we = "", DIR = out
+
+# window_and_fft_test_v4/Subsystem/lo_1/Shared_BRAM1
+PORT window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1_data_out = "", DIR = in, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1_addr = "", DIR = out, VEC = [9:0]
+PORT window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1_data_in = "", DIR = out, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1_we = "", DIR = out
+
+# window_and_fft_test_v4/Subsystem/lo_2/Shared_BRAM
+PORT window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM_data_out = "", DIR = in, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM_addr = "", DIR = out, VEC = [9:0]
+PORT window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM_data_in = "", DIR = out, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM_we = "", DIR = out
+
+# window_and_fft_test_v4/Subsystem/lo_2/Shared_BRAM1
+PORT window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1_data_out = "", DIR = in, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1_addr = "", DIR = out, VEC = [9:0]
+PORT window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1_data_in = "", DIR = out, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1_we = "", DIR = out
+
+# window_and_fft_test_v4/Subsystem/lo_3/Shared_BRAM
+PORT window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM_data_out = "", DIR = in, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM_addr = "", DIR = out, VEC = [9:0]
+PORT window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM_data_in = "", DIR = out, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM_we = "", DIR = out
+
+# window_and_fft_test_v4/Subsystem/lo_3/Shared_BRAM1
+PORT window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1_data_out = "", DIR = in, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1_addr = "", DIR = out, VEC = [9:0]
+PORT window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1_data_in = "", DIR = out, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1_we = "", DIR = out
+
+# window_and_fft_test_v4/Subsystem/lo_4/Shared_BRAM
+PORT window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM_data_out = "", DIR = in, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM_addr = "", DIR = out, VEC = [9:0]
+PORT window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM_data_in = "", DIR = out, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM_we = "", DIR = out
+
+# window_and_fft_test_v4/Subsystem/lo_4/Shared_BRAM1
+PORT window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1_data_out = "", DIR = in, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1_addr = "", DIR = out, VEC = [9:0]
+PORT window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1_data_in = "", DIR = out, VEC = [31:0]
+PORT window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1_we = "", DIR = out
+
+# window_and_fft_test_v4/adc
+PORT window_and_fft_test_v4_adc_user_data_valid = "", DIR = in
+PORT window_and_fft_test_v4_adc_user_datai0 = "", DIR = in, VEC = [7:0]
+PORT window_and_fft_test_v4_adc_user_datai1 = "", DIR = in, VEC = [7:0]
+PORT window_and_fft_test_v4_adc_user_datai2 = "", DIR = in, VEC = [7:0]
+PORT window_and_fft_test_v4_adc_user_datai3 = "", DIR = in, VEC = [7:0]
+PORT window_and_fft_test_v4_adc_user_dataq0 = "", DIR = in, VEC = [7:0]
+PORT window_and_fft_test_v4_adc_user_dataq1 = "", DIR = in, VEC = [7:0]
+PORT window_and_fft_test_v4_adc_user_dataq2 = "", DIR = in, VEC = [7:0]
+PORT window_and_fft_test_v4_adc_user_dataq3 = "", DIR = in, VEC = [7:0]
+PORT window_and_fft_test_v4_adc_user_outofrangei0 = "", DIR = in
+PORT window_and_fft_test_v4_adc_user_outofrangei1 = "", DIR = in
+PORT window_and_fft_test_v4_adc_user_outofrangeq0 = "", DIR = in
+PORT window_and_fft_test_v4_adc_user_outofrangeq1 = "", DIR = in
+PORT window_and_fft_test_v4_adc_user_sync0 = "", DIR = in
+PORT window_and_fft_test_v4_adc_user_sync1 = "", DIR = in
+PORT window_and_fft_test_v4_adc_user_sync2 = "", DIR = in
+PORT window_and_fft_test_v4_adc_user_sync3 = "", DIR = in
+
+# window_and_fft_test_v4/bypass_pfb
+PORT window_and_fft_test_v4_bypass_pfb_user_data_out = "", DIR = in, VEC = [31:0]
+
+# window_and_fft_test_v4/coarse_fft_shift_mask1
+PORT window_and_fft_test_v4_coarse_fft_shift_mask1_user_data_out = "", DIR = in, VEC = [31:0]
+
+# window_and_fft_test_v4/even_window1
+PORT window_and_fft_test_v4_even_window1_data_out = "", DIR = in, VEC = [63:0]
+PORT window_and_fft_test_v4_even_window1_addr = "", DIR = out, VEC = [9:0]
+PORT window_and_fft_test_v4_even_window1_data_in = "", DIR = out, VEC = [63:0]
+PORT window_and_fft_test_v4_even_window1_we = "", DIR = out
+
+# window_and_fft_test_v4/gpio
+PORT window_and_fft_test_v4_gpio_gateway = "", DIR = in
+
+# window_and_fft_test_v4/mixer_cnt
+PORT window_and_fft_test_v4_mixer_cnt_user_data_out = "", DIR = in, VEC = [31:0]
+
+# window_and_fft_test_v4/odd_window1
+PORT window_and_fft_test_v4_odd_window1_data_out = "", DIR = in, VEC = [63:0]
+PORT window_and_fft_test_v4_odd_window1_addr = "", DIR = out, VEC = [9:0]
+PORT window_and_fft_test_v4_odd_window1_data_in = "", DIR = out, VEC = [63:0]
+PORT window_and_fft_test_v4_odd_window1_we = "", DIR = out
+
+END

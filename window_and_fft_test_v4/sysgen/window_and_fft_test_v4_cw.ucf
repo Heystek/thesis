@@ -1,0 +1,26 @@
+
+
+# Global period constraint
+NET "clk" TNM_NET = "clk_3817bc4a";
+TIMESPEC "TS_clk_3817bc4a" = PERIOD "clk_3817bc4a" 5.0 ns HIGH 50 %;
+
+# ce_2500_3817bc4a_group and inner group constraint
+NET "ce_2500_sg_x9*" TNM_NET = "ce_2500_3817bc4a_group";
+TIMESPEC "TS_ce_2500_3817bc4a_group_to_ce_2500_3817bc4a_group" = FROM "ce_2500_3817bc4a_group" TO "ce_2500_3817bc4a_group" 12.5 us;
+
+# ce_50_3817bc4a_group and inner group constraint
+NET "ce_50_sg_x0*" TNM_NET = "ce_50_3817bc4a_group";
+TIMESPEC "TS_ce_50_3817bc4a_group_to_ce_50_3817bc4a_group" = FROM "ce_50_3817bc4a_group" TO "ce_50_3817bc4a_group" 250.0 ns;
+
+# Group-to-group constraints
+TIMESPEC "TS_ce_2500_3817bc4a_group_to_ce_50_3817bc4a_group" = FROM "ce_2500_3817bc4a_group" TO "ce_50_3817bc4a_group" 250.0 ns;
+TIMESPEC "TS_ce_50_3817bc4a_group_to_ce_2500_3817bc4a_group" = FROM "ce_50_3817bc4a_group" TO "ce_2500_3817bc4a_group" 250.0 ns;
+
+# Offset in constraints
+
+# Offset out constraints
+
+# Offset inout constraints
+
+# LOC constraints
+NET "clk" LOC = "d7hack";

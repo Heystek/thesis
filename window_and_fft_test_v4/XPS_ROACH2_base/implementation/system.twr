@@ -1,0 +1,219 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -e 200 -xml system.twx
+system.ncd system.pcf
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,package,speed:     xc6vsx475t,ff1759,C,-1 (PRODUCTION 1.17 2013-10-13)
+Report level:             error report, limited to 200 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more 
+   information, see the TSI report.  Please consult the Xilinx Command Line 
+   Tools User Guide for information on generating a TSI report.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: NET 
+"window_and_fft_test_v4_adc/window_and_fft_test_v4_adc/adc_clk_buf" PERIOD      
+   = 5 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   2.800ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net 
+"window_and_fft_test_v4_adc/window_and_fft_test_v4_adc/adc_clk90_mmcm" derived 
+from  NET "window_and_fft_test_v4_adc/window_and_fft_test_v4_adc/adc_clk_buf" 
+PERIOD        = 5 ns HIGH 50%; 
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 2 paths analyzed, 2 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   3.904ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net 
+"window_and_fft_test_v4_adc/window_and_fft_test_v4_adc/adc_clk_mmcm" derived 
+from  NET "window_and_fft_test_v4_adc/window_and_fft_test_v4_adc/adc_clk_buf" 
+PERIOD        = 5 ns HIGH 50%; 
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 1194 paths analyzed, 1163 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   3.370ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_sys_clk_n = PERIOD TIMEGRP "sys_clk_n" 100 MHz HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   4.000ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_epb_clk_in = PERIOD TIMEGRP "epb_clk_in" 67 MHz HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 36928 paths analyzed, 4636 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  14.527ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_sys_clk = PERIOD TIMEGRP "TNM_sys_clk" 100 MHz HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   2.500ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_infrastructure_inst_infrastructure_inst_sys_clk_mmcm = 
+PERIOD TIMEGRP         "infrastructure_inst_infrastructure_inst_sys_clk_mmcm" 
+TS_sys_clk_n *         2 HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 310601 paths analyzed, 76481 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   4.958ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_infrastructure_inst_infrastructure_inst_clk_200_mmcm = 
+PERIOD TIMEGRP         "infrastructure_inst_infrastructure_inst_clk_200_mmcm" 
+TS_sys_clk_n *         2 HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   1.429ns.
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for window_and_fft_test_v4_adc/window_and_fft_test_v4_adc/adc_clk_buf
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|window_and_fft_test_v4_adc/wind|      5.000ns|      2.800ns|      3.904ns|            0|            0|            0|         1196|
+|ow_and_fft_test_v4_adc/adc_clk_|             |             |             |             |             |             |             |
+|buf                            |             |             |             |             |             |             |             |
+| window_and_fft_test_v4_adc/win|      5.000ns|      3.904ns|          N/A|            0|            0|            2|            0|
+| dow_and_fft_test_v4_adc/adc_cl|             |             |             |             |             |             |             |
+| k90_mmcm                      |             |             |             |             |             |             |             |
+| window_and_fft_test_v4_adc/win|      5.000ns|      3.370ns|          N/A|            0|            0|         1194|            0|
+| dow_and_fft_test_v4_adc/adc_cl|             |             |             |             |             |             |             |
+| k_mmcm                        |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_sys_clk_n
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_n                   |     10.000ns|      4.000ns|      9.916ns|            0|            0|            0|       310601|
+| TS_infrastructure_inst_infrast|      5.000ns|      4.958ns|          N/A|            0|            0|       310601|            0|
+| ructure_inst_sys_clk_mmcm     |             |             |             |             |             |             |             |
+| TS_infrastructure_inst_infrast|      5.000ns|      1.429ns|          N/A|            0|            0|            0|            0|
+| ructure_inst_clk_200_mmcm     |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock adc0clk_n
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+adc0clk_n      |    3.370|    2.928|         |         |
+adc0clk_p      |    3.370|    2.928|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock adc0clk_p
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+adc0clk_n      |    3.370|    2.928|         |         |
+adc0clk_p      |    3.370|    2.928|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock epb_clk_in
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+epb_clk_in     |   14.527|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sys_clk_n
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sys_clk_n      |    4.958|         |         |         |
+sys_clk_p      |    4.958|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sys_clk_p
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sys_clk_n      |    4.958|         |         |         |
+sys_clk_p      |    4.958|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 348725 paths, 0 nets, and 74755 connections
+
+Design statistics:
+   Minimum period:  14.527ns   (Maximum frequency:  68.837MHz)
+
+
+Analysis completed Fri Aug 16 12:40:13 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 1620 MB
+
+
+

@@ -1,0 +1,22 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator                        /opt/Xilinx/14.7/ISE_DS/ISE/sysgen
+Matlab 8.0.0.783 (R2012b)               /opt/Matlab
+ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: ERROR: Output Width: Output_Width: Value '80' is out of r...
+     Block: 'lo_values_test_v10/FIR Compiler 5.0 '
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'lo_values_test_v10/FIR Compiler 5.0 '
+
+Details:
+ERROR: Output Width: Output_Width: Value '80' is out of range '[1..46]'.
+
+Error occurred during "Rate and Type Error Checking".
+
+--------------------------------------------------------------------------------

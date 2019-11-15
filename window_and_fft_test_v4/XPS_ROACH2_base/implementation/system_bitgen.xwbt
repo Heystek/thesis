@@ -1,0 +1,7 @@
+INFILE=/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/implementation/system.ncd
+OUTFILE=/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/implementation/system.bit
+FAMILY=Virtex6
+PART=xc6vsx475t-1ff1759
+WORKINGDIR=/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/implementation
+LICENSE=ISE
+USER_INFO=176723055_1777496841_210595796_443

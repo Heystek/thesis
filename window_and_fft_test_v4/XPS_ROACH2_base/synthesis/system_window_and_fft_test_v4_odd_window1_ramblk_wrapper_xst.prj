@@ -1,0 +1,3 @@
+verilog bram_block_custom_v1_00_a /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram_block_custom.v
+verilog bram_block_custom_v1_00_a /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram.v
+verilog work ../hdl/system_window_and_fft_test_v4_odd_window1_ramblk_wrapper.v

@@ -1,0 +1,60 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator                        /opt/Xilinx/14.7/ISE_DS/ISE/sysgen
+Matlab 8.0.0.783 (R2012b)               /opt/Matlab
+ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: Design Rule Check Failed
+    Blocks: 'lo_values_test_v11/Gateway Out7', et al.
+Error 0002: Design Rule Check Failed
+    Blocks: 'lo_values_test_v11/Gateway Out13', et al.
+Error 0003: Design Rule Check Failed
+    Blocks: 'lo_values_test_v11/Gateway Out2', et al.
+Error 0004: Design Rule Check Failed
+    Blocks: 'lo_values_test_v11/Gateway Out9', et al.
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'lo_values_test_v11/Gateway Out7'
+  'lo_values_test_v11/Gateway Out2'
+
+Details:
+Gateway Out named "lo_values_test_v11/Gateway Out7" is connected
+to Gateway Out named "lo_values_test_v11/Gateway Out2"
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'lo_values_test_v11/Gateway Out13'
+  'lo_values_test_v11/Gateway Out9'
+
+Details:
+Gateway Out named "lo_values_test_v11/Gateway Out13" is connected
+to Gateway Out named "lo_values_test_v11/Gateway Out9"
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'lo_values_test_v11/Gateway Out2'
+  'lo_values_test_v11/Gateway Out7'
+
+Details:
+Gateway Out named "lo_values_test_v11/Gateway Out2" is connected
+to Gateway Out named "lo_values_test_v11/Gateway Out7"
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'lo_values_test_v11/Gateway Out9'
+  'lo_values_test_v11/Gateway Out13'
+
+Details:
+Gateway Out named "lo_values_test_v11/Gateway Out9" is connected
+to Gateway Out named "lo_values_test_v11/Gateway Out13"
+--------------------------------------------------------------------------------

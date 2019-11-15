@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">infrastructure_inst/clk_200</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="1949" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_x0/fir_compiler_5_0_3/fr_cmplr_v5_0_5d372747691e47c4_instance/blk00000003/blk00000006</arg>&gt;:&lt;<arg fmt="%s" index="2">DSP48E1_DSP48E1</arg>&gt;.  To save power with this DSP48E1 OPMODE input pin programming the USE_MULT attribute should be set to NONE.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="1949" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_x0/fir_compiler_5_0_2/fr_cmplr_v5_0_5d372747691e47c4_instance/blk00000003/blk00000006</arg>&gt;:&lt;<arg fmt="%s" index="2">DSP48E1_DSP48E1</arg>&gt;.  To save power with this DSP48E1 OPMODE input pin programming the USE_MULT attribute should be set to NONE.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="1949" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_x0/fir_compiler_5_0_1/fr_cmplr_v5_0_5d372747691e47c4_instance/blk00000003/blk00000006</arg>&gt;:&lt;<arg fmt="%s" index="2">DSP48E1_DSP48E1</arg>&gt;.  To save power with this DSP48E1 OPMODE input pin programming the USE_MULT attribute should be set to NONE.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="1949" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_x0/fir_compiler_5_0/fr_cmplr_v5_0_5d372747691e47c4_instance/blk00000003/blk00000006</arg>&gt;:&lt;<arg fmt="%s" index="2">DSP48E1_DSP48E1</arg>&gt;.  To save power with this DSP48E1 OPMODE input pin programming the USE_MULT attribute should be set to NONE.
+</msg>
+
+</messages>
+

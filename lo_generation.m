@@ -1,19 +1,28 @@
-desired_freq = 7000000
-N_sine_waves = (8192)*(((1.25)*(10^-9)))*(desired_freq)
-%N_sine_waves = 1*(desired_freq);
-Int_sine_waves = round(N_sine_waves)
-%Int_sine_waves = (N_sine_waves);
-F = ceil(2*pi*(Int_sine_waves))/2048
-%F = 2048/2048
+% desired_freq = 7000000
+% N_sine_waves = (8192)*(((1.25)*(10^-9)))*(desired_freq)
+% %N_sine_waves = 1*(desired_freq);
+% Int_sine_waves = round(N_sine_waves)
+% %Int_sine_waves = (N_sine_waves);
+% F = ceil(2*pi*(Int_sine_waves))/2048
+% %F = 2048/2048
 
-sin_0 = sin(0:0.01:2*pi);
-sin_1 = sin(0:0.01:2*pi);
-sin_2 = sin(0:0.01:2*pi);
-sin_3 = sin(0:0.01:2*pi);
-cos_0 = cos(0:0.01:2*pi);
-cos_1 = cos(0:0.01:2*pi);
-cos_2 = cos(0:0.01:2*pi);
-cos_3 = cos(0:0.01:2*pi);
+ sin_0 = sin(0:0.1:2*pi);
+ sin_1 = sin(0:0.1:2*pi);
+ sin_2 = sin(0:0.1:2*pi);
+ sin_3 = sin(0:0.1:2*pi);
+ cos_0 = cos(0:0.1:2*pi);
+ cos_1 = cos(0:0.1:2*pi);
+ cos_2 = cos(0:0.1:2*pi);
+ cos_3 = cos(0:0.1:2*pi);
+
+% sin_0 = sin(0:1.57*(10^-6):2*pi);
+% sin_1 = sin(0:1.57*(10^-6):2*pi);
+% sin_2 = sin(0:1.57*(10^-6):2*pi);
+% sin_3 = sin(0:1.57*(10^-6):2*pi);
+% cos_0 = cos(0:1.57*(10^-6):2*pi);
+% cos_1 = cos(0:1.57*(10^-6):2*pi);
+% cos_2 = cos(0:1.57*(10^-6):2*pi);
+% cos_3 = cos(0:1.57*(10^-6):2*pi);
 
 %for i = 1:2048  
  %  sin_0(i) = (sin((i*F)+0));

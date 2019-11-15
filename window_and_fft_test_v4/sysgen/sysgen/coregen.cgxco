@@ -1,0 +1,2301 @@
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 21
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 21
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 21
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_1c3c830b668bf9ed
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 39
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 39
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 39
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_259024b6977697b1
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 27
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 27
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 27
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_325ab3980d59a98e
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 22
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 22
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = false
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 0
+CSET Out_Width = 22
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_3892e7a2bbe55936
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 45
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 45
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = DSP48
+CSET Latency = 1
+CSET Out_Width = 45
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_41035397f321bdbe
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 21
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 21
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = false
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 0
+CSET Out_Width = 21
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_5b4a22e47f2359ce
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Unsigned
+CSET A_Width = 3
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Unsigned
+CSET B_Value = 0
+CSET B_Width = 3
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = false
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 0
+CSET Out_Width = 3
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_6a49eeb869ee9525
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 23
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 23
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 23
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_6c65a885198b42c3
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 19
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 19
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 19
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_8610f827d96057ce
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 19
+CSET Add_Mode = Subtract
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 19
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 19
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_88a3fd223f485e8a
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 22
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 22
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 22
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_d11668e2ba580388
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 44
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 44
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = DSP48
+CSET Latency = 1
+CSET Out_Width = 44
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_eef67c1cc12cdbba
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_146e01525f281df8.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 18
+CSET read_width_b = 18
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 1024
+CSET write_width_a = 18
+CSET write_width_b = 18
+CSET component_name = bmg_72_146e01525f281df8
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_25cb9ebb8094dade.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_RAM
+CSET operating_mode_a = READ_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 18
+CSET read_width_b = 18
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 1024
+CSET write_width_a = 18
+CSET write_width_b = 18
+CSET component_name = bmg_72_25cb9ebb8094dade
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Fixed_Primitives
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_2d8e9bcfdb574c10.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 512x36
+CSET read_width_a = 36
+CSET read_width_b = 36
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 32
+CSET write_width_a = 36
+CSET write_width_b = 36
+CSET component_name = bmg_72_2d8e9bcfdb574c10
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Fixed_Primitives
+CSET assume_synchronous_clk = true
+CSET byte_size = 9
+CSET coe_file = bmg_72_3673c2b46bfb142f.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Use_ENB_Pin
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = True_Dual_Port_RAM
+CSET operating_mode_a = READ_FIRST
+CSET operating_mode_b = READ_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 512x36
+CSET read_width_a = 9
+CSET read_width_b = 9
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = true
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 512
+CSET write_width_a = 9
+CSET write_width_b = 9
+CSET component_name = bmg_72_3673c2b46bfb142f
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Fixed_Primitives
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_3f3c61289e7ba7ea.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 512x36
+CSET read_width_a = 36
+CSET read_width_b = 36
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 256
+CSET write_width_a = 36
+CSET write_width_b = 36
+CSET component_name = bmg_72_3f3c61289e7ba7ea
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_51873a049072c953.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 18
+CSET read_width_b = 18
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 1024
+CSET write_width_a = 18
+CSET write_width_b = 18
+CSET component_name = bmg_72_51873a049072c953
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Fixed_Primitives
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_5b8023f54686b589.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 512x36
+CSET read_width_a = 36
+CSET read_width_b = 36
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 32
+CSET write_width_a = 36
+CSET write_width_b = 36
+CSET component_name = bmg_72_5b8023f54686b589
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_5d708e36ddb23a80.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 18
+CSET read_width_b = 18
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 1024
+CSET write_width_a = 18
+CSET write_width_b = 18
+CSET component_name = bmg_72_5d708e36ddb23a80
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Fixed_Primitives
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_71453be4ec33d4ae.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 512x36
+CSET read_width_a = 8
+CSET read_width_b = 8
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 256
+CSET write_width_a = 8
+CSET write_width_b = 8
+CSET component_name = bmg_72_71453be4ec33d4ae
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Fixed_Primitives
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_88a7df48df176590.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_RAM
+CSET operating_mode_a = READ_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 512x36
+CSET read_width_a = 36
+CSET read_width_b = 36
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 256
+CSET write_width_a = 36
+CSET write_width_b = 36
+CSET component_name = bmg_72_88a7df48df176590
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Fixed_Primitives
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_8e2f9d152d14263e.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 512x36
+CSET read_width_a = 36
+CSET read_width_b = 36
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 128
+CSET write_width_a = 36
+CSET write_width_b = 36
+CSET component_name = bmg_72_8e2f9d152d14263e
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Fixed_Primitives
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_92d96d23faa10f27.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 512x36
+CSET read_width_a = 8
+CSET read_width_b = 8
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 256
+CSET write_width_a = 8
+CSET write_width_b = 8
+CSET component_name = bmg_72_92d96d23faa10f27
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_9a187dd9cd5a0cfe.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_RAM
+CSET operating_mode_a = READ_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 36
+CSET read_width_b = 36
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 256
+CSET write_width_a = 36
+CSET write_width_b = 36
+CSET component_name = bmg_72_9a187dd9cd5a0cfe
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_a4cff0d500ff7adb.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_RAM
+CSET operating_mode_a = READ_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 64
+CSET read_width_b = 64
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 1024
+CSET write_width_a = 64
+CSET write_width_b = 64
+CSET component_name = bmg_72_a4cff0d500ff7adb
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Fixed_Primitives
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_a6d704d36eb848a5.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 512x36
+CSET read_width_a = 36
+CSET read_width_b = 36
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 32
+CSET write_width_a = 36
+CSET write_width_b = 36
+CSET component_name = bmg_72_a6d704d36eb848a5
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Fixed_Primitives
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_b3a5d690118dc305.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 512x36
+CSET read_width_a = 36
+CSET read_width_b = 36
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 64
+CSET write_width_a = 36
+CSET write_width_b = 36
+CSET component_name = bmg_72_b3a5d690118dc305
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_b7d413d71af73706.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 18
+CSET read_width_b = 18
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 1024
+CSET write_width_a = 18
+CSET write_width_b = 18
+CSET component_name = bmg_72_b7d413d71af73706
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Fixed_Primitives
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_d5319d7881548c22.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 512x36
+CSET read_width_a = 9
+CSET read_width_b = 9
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 512
+CSET write_width_a = 9
+CSET write_width_b = 9
+CSET component_name = bmg_72_d5319d7881548c22
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Fixed_Primitives
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_d53572f04cfc7154.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_RAM
+CSET operating_mode_a = READ_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 512x36
+CSET read_width_a = 36
+CSET read_width_b = 36
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 512
+CSET write_width_a = 36
+CSET write_width_b = 36
+CSET component_name = bmg_72_d53572f04cfc7154
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_e9a0d6c7631bff5b.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 18
+CSET read_width_b = 18
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 1024
+CSET write_width_a = 18
+CSET write_width_b = 18
+CSET component_name = bmg_72_e9a0d6c7631bff5b
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_ed1b80fcdf1c3a46.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 18
+CSET read_width_b = 18
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 1024
+CSET write_width_a = 18
+CSET write_width_b = 18
+CSET component_name = bmg_72_ed1b80fcdf1c3a46
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_f77670697183b527.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 18
+CSET read_width_b = 18
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 1024
+CSET write_width_a = 18
+CSET write_width_b = 18
+CSET component_name = bmg_72_f77670697183b527
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_fba27241bcd4df38.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 18
+CSET read_width_b = 18
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 1024
+CSET write_width_a = 18
+CSET write_width_b = 18
+CSET component_name = bmg_72_fba27241bcd4df38
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Fixed_Primitives
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_fc83b5c52a6ea9e3.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 512x36
+CSET read_width_a = 8
+CSET read_width_b = 8
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 256
+CSET write_width_a = 8
+CSET write_width_b = 8
+CSET component_name = bmg_72_fc83b5c52a6ea9e3
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Fixed_Primitives
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_ffcaf565dc759de1.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 512x36
+CSET read_width_a = 36
+CSET read_width_b = 36
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 32
+CSET write_width_a = 36
+CSET write_width_b = 36
+CSET component_name = bmg_72_ffcaf565dc759de1
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Binary_Counter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = DOWN
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 1
+CSET latency = 1
+CSET load = true
+CSET output_width = 9
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_21ee79a31172f35f
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Binary_Counter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 7FFF
+CSET implementation = Fabric
+CSET increment_value = 8000
+CSET latency = 1
+CSET load = false
+CSET output_width = 16
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_457d1583b36d1c7c
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Binary_Counter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 1
+CSET latency = 1
+CSET load = false
+CSET output_width = 10
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_5c0d8fded7f0a054
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Binary_Counter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 1
+CSET latency = 1
+CSET load = false
+CSET output_width = 9
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_9966d4e54ef143a4
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Distributed_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_06baee6e81a49674.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 36
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 16
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = dual_port_ram
+CSET output_options = non_registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = false
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_06baee6e81a49674
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Distributed_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_28098a4ce465921e.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 18
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 16
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = dual_port_ram
+CSET output_options = non_registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = false
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_28098a4ce465921e
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Distributed_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_3edbd32a5305b92d.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 18
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 16
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = dual_port_ram
+CSET output_options = non_registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = false
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_3edbd32a5305b92d
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Distributed_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_61c575268fb396d0.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 18
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 16
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = dual_port_ram
+CSET output_options = non_registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = false
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_61c575268fb396d0
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT FIR_Compiler virtex6 Xilinx,_Inc. 5.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET allow_rounding_approximation = false
+CSET bestprecision = true
+CSET chan_in_adv = 0
+CSET clock_frequency = 300
+CSET coefficient_buffer_type = Automatic
+CSET coefficient_file = no_coe_file_loaded
+CSET coefficient_fractional_bits = 33
+CSET coefficient_reload = false
+CSET coefficient_sets = 1
+CSET coefficient_sign = Unsigned
+CSET coefficient_structure = Non_Symmetric
+CSET coefficient_width = 25
+CSET coefficientsource = Vector
+CSET coefficientvector = 0.000267423930224,3.33637238687e-05,3.54176130354e-05,3.75955803515e-05,3.98134558526e-05,4.21580312476e-05,4.45434575485e-05,4.70547717016e-05,4.96045230551e-05,5.2281095316e-05,5.49948592337e-05,5.78358778514e-05,6.07123944715e-05,6.37251080105e-05,6.67769260569e-05,6.99787263486e-05,7.32320280638e-05,7.66498301094e-05,8.01258824201e-05,8.37792828087e-05,8.74819694479e-05,9.13568386067e-05,9.52554181657e-05,9.9310128408e-05,0.000103362830292,0.000107598000749,0.000111861748473,0.000116421675468,0.00012105695794,0.000126039965223,0.000130656422006,0.000135356114284,0.000140822271373,0.000145810573424,0.000151223857212,0.000156614946736,0.00016223234377,0.000167908551421,0.000173775454942,0.000179732864965,0.000185860917454,0.000192093605601,0.000198485112634,0.000204990520856,0.000211645758305,0.000218429387433,0.000225360632128,0.000232435343289,0.000239663898299,0.000247044408969,0.000254570724308,0.000262246280959,0.000270047448204,0.000277995682818,0.000286075491238,0.000294333420003,0.000302744031337,0.000311345907104,0.000320051708182,0.000328902315576,0.00033784386017,0.00034712906109,0.000356429903041,0.00036586370681,0.000375551407866,0.000385305606923,0.000395275159631,0.000405363963609,0.000415642960176,0.000426057104451,0.000436651530759,0.000447387863123,0.000458296732523,0.000469347489145,0.000480568149682,0.000491934835084,0.000503471667645,0.000515166721958,0.000527029837952,0.000539049846674,0.000551230353147,0.000563559234449,0.000576042492832,0.000588685784325,0.000601491672392,0.000614463318986,0.000627585781378,0.000640854969358,0.00065426221266,0.000667843295772,0.000681596080203,0.000695501185337,0.000709484530184,0.00072371486023,0.000738033204734,0.000752510876826,0.000767144877138,0.000781913888045,0.000796836375457,0.000811898176441,0.000827107354405,0.000842453200818,0.000857938136142,0.000873556576892,0.000889311894966,0.000905198850624,0.000921226391544,0.000937382497105,0.000953670446739,0.000970083009099,0.000986617628495,0.00100327379726,0.00102005696289,0.00103696145834,0.00105398324982,0.00107111522438,0.00108835235798,0.00110569965999,0.00112316391731,0.00114074158283,0.00115841022995,0.00117616450058,0.00119403622284,0.00121201320714,0.00123003507571,0.00124819612211,0.00126640749188,0.00128472172453,0.00130310654324,0.00132157837796,0.00134011603345,0.00135873077606,0.0013774047663,0.00139615087775,0.00141495140789,0.0014338201722,0.00145273802448,0.00147171007934,0.00149072752545,0.00150979023973,0.00152889286618,0.00154804186757,0.00156722265482,0.00158643445451,0.0016056685712,0.00162492604011,0.00164420339618,0.00166350470509,0.00168281730009,0.00170213308121,0.00172144966409,0.00174077873924,0.00176010824863,0.00177941068146,0.00179871450837,0.00181801159597,0.00183726553986,0.00185652517375,0.00187573650809,0.00189493280611,0.00191407920009,0.00193319836155,0.00195226316357,0.00197129281278,0.00199026029266,0.00200918375778,0.00202803170597,0.00204682854494,0.00206554543527,0.00208419994351,0.00210277456522,0.00212127394416,0.00213967767946,0.00215799959212,0.002176220829,0.00219435197524,0.00221237787269,0.00223030178624,0.00224810599623,0.00226580196772,0.00228338128694,0.00230084183174,0.00231816281733,0.00233535931902,0.00235242805464,0.00236934383785,0.00238612565092,0.00240276439258,0.00241923866624,0.00243557143498,0.00245173250571,0.00246774344815,0.00248357771171,0.00249925159585,0.0025147400604,0.00253005839693,0.00254518379421,0.00256013737667,0.00257488660662,0.00258946049324,0.00260382201611,0.00261799142298,0.00263194917101,0.0026457098606,0.00265924850212,0.00267258405117,0.0026856902366,0.00269858192798,0.00271124217821,0.00272368718396,0.00273589094002,0.00274786345975,0.00275959332674,0.00277109517122,0.00278234034366,0.00279334591399,0.00280410569642,0.00281460424201,0.00282485183399,0.0028348451725,0.00284457321832,0.00285404669336,0.00286324682346,0.00287218588397,0.00288084739077,0.00288924372232,0.00289736114753,0.00290520757361,0.00291276843214,0.00292005906954,0.00292705054838,0.00293377656966,0.00294020367592,0.00294635207289,0.0029522015779,0.00295777071317,0.00296303383159,0.0029680171645,0.00297269682761,0.00297708896096,0.0029811694355,0.0029849645218,0.00298845256066,0.00299164751136,0.00299453017131,0.00299712573318,0.00299940221982,0.00300138424339,0.0030030623748,0.00300443556133,0.00300550311962,0.00300626826605,0.00300672270781,0.00300687793339,0.00300672270781,0.00300626826605,0.00300550311962,0.00300443556133,0.0030030623748,0.00300138424339,0.00299940221982,0.00299712573318,0.00299453017131,0.00299164751136,0.00298845256066,0.0029849645218,0.0029811694355,0.00297708896096,0.00297269682761,0.0029680171645,0.00296303383159,0.00295777071317,0.0029522015779,0.00294635207289,0.00294020367592,0.00293377656966,0.00292705054838,0.00292005906954,0.00291276843214,0.00290520757361,0.00289736114753,0.00288924372232,0.00288084739077,0.00287218588397,0.00286324682346,0.00285404669336,0.00284457321832,0.0028348451725,0.00282485183399,0.00281460424201,0.00280410569642,0.00279334591399,0.00278234034366,0.00277109517122,0.00275959332674,0.00274786345975,0.00273589094002,0.00272368718396,0.00271124217821,0.00269858192798,0.0026856902366,0.00267258405117,0.00265924850212,0.0026457098606,0.00263194917101,0.00261799142298,0.00260382201611,0.00258946049324,0.00257488660662,0.00256013737667,0.00254518379421,0.00253005839693,0.0025147400604,0.00249925159585,0.00248357771171,0.00246774344815,0.00245173250571,0.00243557143498,0.00241923866624,0.00240276439258,0.00238612565092,0.00236934383785,0.00235242805464,0.00233535931902,0.00231816281733,0.00230084183174,0.00228338128694,0.00226580196772,0.00224810599623,0.00223030178624,0.00221237787269,0.00219435197524,0.002176220829,0.00215799959212,0.00213967767946,0.00212127394416,0.00210277456522,0.00208419994351,0.00206554543527,0.00204682854494,0.00202803170597,0.00200918375778,0.00199026029266,0.00197129281278,0.00195226316357,0.00193319836155,0.00191407920009,0.00189493280611,0.00187573650809,0.00185652517375,0.00183726553986,0.00181801159597,0.00179871450837,0.00177941068146,0.00176010824863,0.00174077873924,0.00172144966409,0.00170213308121,0.00168281730009,0.00166350470509,0.00164420339618,0.00162492604011,0.0016056685712,0.00158643445451,0.00156722265482,0.00154804186757,0.00152889286618,0.00150979023973,0.00149072752545,0.00147171007934,0.00145273802448,0.0014338201722,0.00141495140789,0.00139615087775,0.0013774047663,0.00135873077606,0.00134011603345,0.00132157837796,0.00130310654324,0.00128472172453,0.00126640749188,0.00124819612211,0.00123003507571,0.00121201320714,0.00119403622284,0.00117616450058,0.00115841022995,0.00114074158283,0.00112316391731,0.00110569965999,0.00108835235798,0.00107111522438,0.00105398324982,0.00103696145834,0.00102005696289,0.00100327379726,0.000986617628495,0.000970083009099,0.000953670446739,0.000937382497105,0.000921226391544,0.000905198850624,0.000889311894966,0.000873556576892,0.000857938136142,0.000842453200818,0.000827107354405,0.000811898176441,0.000796836375457,0.000781913888045,0.000767144877138,0.000752510876826,0.000738033204734,0.00072371486023,0.000709484530184,0.000695501185337,0.000681596080203,0.000667843295772,0.00065426221266,0.000640854969358,0.000627585781378,0.000614463318986,0.000601491672392,0.000588685784325,0.000576042492832,0.000563559234449,0.000551230353147,0.000539049846674,0.000527029837952,0.000515166721958,0.000503471667645,0.000491934835084,0.000480568149682,0.000469347489145,0.000458296732523,0.000447387863123,0.000436651530759,0.000426057104451,0.000415642960176,0.000405363963609,0.000395275159631,0.000385305606923,0.000375551407866,0.00036586370681,0.000356429903041,0.00034712906109,0.00033784386017,0.000328902315576,0.000320051708182,0.000311345907104,0.000302744031337,0.000294333420003,0.000286075491238,0.000277995682818,0.000270047448204,0.000262246280959,0.000254570724308,0.000247044408969,0.000239663898299,0.000232435343289,0.000225360632128,0.000218429387433,0.000211645758305,0.000204990520856,0.000198485112634,0.000192093605601,0.000185860917454,0.000179732864965,0.000173775454942,0.000167908551421,0.00016223234377,0.000156614946736,0.000151223857212,0.000145810573424,0.000140822271373,0.000135356114284,0.000130656422006,0.000126039965223,0.00012105695794,0.000116421675468,0.000111861748473,0.000107598000749,0.000103362830292,9.9310128408e-05,9.52554181657e-05,9.13568386067e-05,8.74819694479e-05,8.37792828087e-05,8.01258824201e-05,7.66498301094e-05,7.32320280638e-05,6.99787263486e-05,6.67769260569e-05,6.37251080105e-05,6.07123944715e-05,5.78358778514e-05,5.49948592337e-05,5.2281095316e-05,4.96045230551e-05,4.70547717016e-05,4.45434575485e-05,4.21580312476e-05,3.98134558526e-05,3.75955803515e-05,3.54176130354e-05,3.33637238687e-05,0.000267423930224
+CSET columnconfig = 12
+CSET data_buffer_type = Automatic
+CSET data_fractional_bits = 15
+CSET data_sign = Signed
+CSET data_width = 16
+CSET decimation_rate = 50
+CSET displayreloadorder = false
+CSET filter_architecture = Systolic_Multiply_Accumulate
+CSET filter_selection = 1
+CSET filter_type = Decimation
+CSET gui_behaviour = Coregen
+CSET hardwareoversamplingrate = 1
+CSET has_ce = true
+CSET has_data_valid = false
+CSET has_nd = true
+CSET has_sclr = false
+CSET input_buffer_type = Automatic
+CSET inter_column_pipe_length = 4
+CSET interpolation_rate = 1
+CSET multi_column_support = Disabled
+CSET number_channels = 1
+CSET number_paths = 1
+CSET optimization_goal = Area
+CSET output_buffer_type = Automatic
+CSET output_rounding_mode = Convergent_Rounding_to_Even
+CSET output_width = 18
+CSET passband_max = 0.50000000000
+CSET passband_min = 0
+CSET preference_for_other_storage = Automatic
+CSET quantization = Maximize_Dynamic_Range
+CSET rate_change_type = Integer
+CSET ratespecification = Sample_Period
+CSET registered_output = true
+CSET sample_frequency = 0.00100000000
+CSET sampleperiod = 1
+CSET sclr_deterministic = false
+CSET stopband_max = 1
+CSET stopband_min = 0.50000000000
+CSET usechan_in_adv = false
+CSET zero_pack_factor = 1
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+CSET component_name = fr_cmplr_v5_0_5d372747691e47c4
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Multiplier virtex6 Xilinx,_Inc. 11.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ccmimp = Distributed_Memory
+CSET clockenable = true
+CSET constvalue = 129
+CSET internaluser = 0
+CSET multiplier_construction = Use_Mults
+CSET multtype = Parallel_Multiplier
+CSET optgoal = Speed
+CSET outputwidthhigh = 39
+CSET outputwidthlow = 0
+CSET pipestages = 5
+CSET portatype = Signed
+CSET portawidth = 8
+CSET portbtype = Signed
+CSET portbwidth = 32
+CSET roundpoint = 0
+CSET sclrcepriority = CE_Overrides_SCLR
+CSET syncclear = true
+CSET use_custom_output_width = true
+CSET userounding = false
+CSET zerodetect = false
+CSET component_name = mult_11_2_7f50ff10654d69e4
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Multiplier virtex6 Xilinx,_Inc. 11.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ccmimp = Distributed_Memory
+CSET clockenable = true
+CSET constvalue = 129
+CSET internaluser = 0
+CSET multiplier_construction = Use_Mults
+CSET multtype = Parallel_Multiplier
+CSET optgoal = Speed
+CSET outputwidthhigh = 35
+CSET outputwidthlow = 0
+CSET pipestages = 3
+CSET portatype = Signed
+CSET portawidth = 18
+CSET portbtype = Signed
+CSET portbwidth = 18
+CSET roundpoint = 0
+CSET sclrcepriority = CE_Overrides_SCLR
+CSET syncclear = true
+CSET use_custom_output_width = true
+CSET userounding = false
+CSET zerodetect = false
+CSET component_name = mult_11_2_ecdcb40ad0958e64
+GENERATE

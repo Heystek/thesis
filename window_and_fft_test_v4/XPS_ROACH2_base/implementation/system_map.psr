@@ -1,0 +1,99 @@
+Release 14.7 Physical Synthesis Report P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc. All rights reserved.
+
+TABLE OF CONTENTS
+  1) Physical Synthesis Options Summary
+  2) Optimizations statistics and details
+
+
+=========================================================================
+*                 Physical Synthesis Options Summary                    *
+=========================================================================
+---- Options
+Global Optimization                 : OFF
+    Retiming                        : OFF
+    Equivalent Register Removal     : OFF
+Timing-Driven Packing and Placement : ON
+    Logic Optimization              : OFF
+    Register Duplication            : ON
+
+---- Intelligent clock gating       : OFF
+
+---- Target Parameters
+Target Device                       : 6vsx475tff1759-1
+
+=========================================================================
+
+
+=========================================================================
+*                        Optimizations                                  *
+=========================================================================
+---- Statistics
+   Number of registers added by Reduce Maximum Fanout        | 56              
+
+   Overall change in number of design objects                | +56              
+
+
+---- Details
+
+New or modified components                             | Optimization             | Objective           
+-------------------------------------------------------|--------------------------|----------------------
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_0| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_1| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_10| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_11| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_12| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_13| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_14| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_15| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_16| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_17| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_18| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_19| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_2| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_20| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_21| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_22| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_23| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_24| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_25| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_26| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_27| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_28| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_29| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_3| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_30| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_31| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_4| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_5| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_6| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_7| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_8| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_2500_sg_x9_REPLICA_9| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_50_sg_x0_REPLICA_32| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_50_sg_x0_REPLICA_33| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_50_sg_x0_REPLICA_34| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_50_sg_x0_REPLICA_35| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_50_sg_x0_REPLICA_36| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_50_sg_x0_REPLICA_37| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_50_sg_x0_REPLICA_38| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_50_sg_x0_REPLICA_39| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_50_sg_x0_REPLICA_40| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/ce_50_sg_x0_REPLICA_41| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/default_clock_driver_window_and_fft_test_v4_x0/xlclockdriver_2500/ce_vec(1)_REPLICA_45| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/default_clock_driver_window_and_fft_test_v4_x0/xlclockdriver_2500/ce_vec(1)_REPLICA_46| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/default_clock_driver_window_and_fft_test_v4_x0/xlclockdriver_2500/ce_vec(1)_REPLICA_47| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/default_clock_driver_window_and_fft_test_v4_x0/xlclockdriver_2500/ce_vec(1)_REPLICA_48| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/default_clock_driver_window_and_fft_test_v4_x0/xlclockdriver_2500/ce_vec(1)_REPLICA_49| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/default_clock_driver_window_and_fft_test_v4_x0/xlclockdriver_2500/ce_vec(1)_REPLICA_50| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/default_clock_driver_window_and_fft_test_v4_x0/xlclockdriver_2500/ce_vec(1)_REPLICA_51| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/default_clock_driver_window_and_fft_test_v4_x0/xlclockdriver_2500/ce_vec(1)_REPLICA_52| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/default_clock_driver_window_and_fft_test_v4_x0/xlclockdriver_2500/ce_vec(1)_REPLICA_53| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/default_clock_driver_window_and_fft_test_v4_x0/xlclockdriver_2500/ce_vec(1)_REPLICA_54| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/default_clock_driver_window_and_fft_test_v4_x0/xlclockdriver_2500/ce_vec(1)_REPLICA_55| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/default_clock_driver_window_and_fft_test_v4_x0/xlclockdriver_50/ce_vec(1)_REPLICA_42| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/default_clock_driver_window_and_fft_test_v4_x0/xlclockdriver_50/ce_vec(1)_REPLICA_43| Reduce Maximum Fanout    | Fanout Optimization
+window_and_fft_test_v4_xsg_core_config/window_and_fft_test_v4_xsg_core_config/default_clock_driver_window_and_fft_test_v4_x0/xlclockdriver_50/ce_vec(1)_REPLICA_44| Reduce Maximum Fanout    | Fanout Optimization
+
+   Flops added for Enable Generation                       
+-------------------------

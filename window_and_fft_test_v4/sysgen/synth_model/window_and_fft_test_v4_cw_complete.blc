@@ -1,0 +1,176 @@
+Release 14.7 ngcbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngcbuild -p
+xc6vsx475t-1ff1759 window_and_fft_test_v4_cw
+window_and_fft_test_v4_cw_complete.ngc
+
+Reading NGO file
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/w
+indow_and_fft_test_v4_cw.ngc" ...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/a
+ddsb_11_0_d11668e2ba580388.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/a
+ddsb_11_0_5b4a22e47f2359ce.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/a
+ddsb_11_0_259024b6977697b1.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/a
+ddsb_11_0_6a49eeb869ee9525.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/d
+mg_72_61c575268fb396d0.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/a
+ddsb_11_0_6c65a885198b42c3.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/a
+ddsb_11_0_3892e7a2bbe55936.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/d
+mg_72_3edbd32a5305b92d.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/d
+mg_72_28098a4ce465921e.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_a6d704d36eb848a5.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_b3a5d690118dc305.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_8e2f9d152d14263e.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_3f3c61289e7ba7ea.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/m
+ult_11_2_7f50ff10654d69e4.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/a
+ddsb_11_0_eef67c1cc12cdbba.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/a
+ddsb_11_0_41035397f321bdbe.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_88a7df48df176590.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_71453be4ec33d4ae.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_fc83b5c52a6ea9e3.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_9a187dd9cd5a0cfe.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/a
+ddsb_11_0_8610f827d96057ce.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/a
+ddsb_11_0_1c3c830b668bf9ed.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/a
+ddsb_11_0_88a3fd223f485e8a.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_92d96d23faa10f27.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/c
+ntr_11_0_21ee79a31172f35f.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/c
+ntr_11_0_9966d4e54ef143a4.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_5b8023f54686b589.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/d
+mg_72_06baee6e81a49674.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_2d8e9bcfdb574c10.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_ffcaf565dc759de1.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_d53572f04cfc7154.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_3673c2b46bfb142f.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_d5319d7881548c22.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/f
+r_cmplr_v5_0_5d372747691e47c4.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/c
+ntr_11_0_457d1583b36d1c7c.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/c
+ntr_11_0_5c0d8fded7f0a054.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_b7d413d71af73706.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_fba27241bcd4df38.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_5d708e36ddb23a80.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_146e01525f281df8.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_e9a0d6c7631bff5b.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_ed1b80fcdf1c3a46.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_f77670697183b527.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_51873a049072c953.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/a
+ddsb_11_0_325ab3980d59a98e.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_25cb9ebb8094dade.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/m
+ult_11_2_ecdcb40ad0958e64.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/b
+mg_72_a4cff0d500ff7adb.ngc"...
+Loading design module
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/sysgen/synth_model/x
+lpersistentdff.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 531720 kilobytes
+
+Writing NGC file "window_and_fft_test_v4_cw_complete.ngc" ...
+Total REAL time to NGCBUILD completion:  4 sec
+Total CPU time to NGCBUILD completion:   3 sec
+
+Writing NGCBUILD log file "window_and_fft_test_v4_cw_complete.blc"...

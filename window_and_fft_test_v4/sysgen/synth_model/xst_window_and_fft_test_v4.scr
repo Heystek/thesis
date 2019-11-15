@@ -1,0 +1,1 @@
+run -ifn xst_window_and_fft_test_v4.prj -ifmt mixed -ofn window_and_fft_test_v4_cw.ngc -ofmt NGC -p xc6vsx475t-1ff1759 -ent window_and_fft_test_v4_cw -keep_hierarchy NO -iobuf NO -bus_delimiter () -top window_and_fft_test_v4_cw -hierarchy_separator / -report_timing_constraint_problems warning -register_balancing no -iob Auto

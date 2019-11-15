@@ -1,0 +1,2 @@
+verilog roach_infrastructure_v1_00_a /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/roach_infrastructure_v1_00_a/hdl/verilog/roach_infrastructure.v
+verilog work ../hdl/system_infrastructure_inst_wrapper.v

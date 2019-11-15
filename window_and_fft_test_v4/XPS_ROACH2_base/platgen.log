@@ -1,0 +1,867 @@
+Release 14.7 - platgen Xilinx EDK 14.7 Build EDK_P.20131013
+ (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: platgen -p xc6vsx475tff1759-1 -lang vhdl -intstyle default -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+WARNING:EDK - INFO:Security:71 - If a license for part 'xc6vsx475t' is
+   available, it will be possible to use 'XPS_TDP' instead of 'XPS'.
+   WARNING:Security:42 - Your software subscription period has lapsed. Your
+   current version of Xilinx tools will continue to function, but you no longer
+   qualify for Xilinx software updates or new releases.
+
+
+Parse
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs ...
+
+Read MPD definitions ...
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 276 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 307 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 338 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 369 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 400 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 431 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 462 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 493 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_even_window1 - Superseded core for architecture
+   'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 618 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_odd_window1 - Superseded core for architecture
+   'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 675 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 276 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 307 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 338 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 369 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 400 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 431 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 462 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 493 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_even_window1 - Superseded core for architecture
+   'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 618 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_odd_window1 - Superseded core for architecture
+   'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 675 
+
+Overriding IP level properties ...
+
+Computing clock values...
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:1039 - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   window_and_fft_test_v4_even_window1:c_opb_clk_period_ps. Top-level frequency
+   could not be propagated to this IP. Please make sure that you have specified
+   the frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   window_and_fft_test_v4_odd_window1:c_opb_clk_period_ps. Top-level frequency
+   could not be propagated to this IP. Please make sure that you have specified
+   the frequency of the top-level clock port, and that the clocks are properly
+   connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb0 - tool is overriding PARAMETER
+   C_NUM_MASTERS value to 1 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 74 
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb0 - tool is overriding PARAMETER
+   C_NUM_SLAVES value to 15 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 75 
+INFO:EDK:4130 - IPNAME: bram_block,
+   INSTANCE:window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK:4130 - IPNAME: bram_block,
+   INSTANCE:window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK:4130 - IPNAME: bram_block,
+   INSTANCE:window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK:4130 - IPNAME: bram_block,
+   INSTANCE:window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK:4130 - IPNAME: bram_block,
+   INSTANCE:window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK:4130 - IPNAME: bram_block,
+   INSTANCE:window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK:4130 - IPNAME: bram_block,
+   INSTANCE:window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME: opb_v20, INSTANCE: opb0 - 1 master(s) : 15 slave(s) 
+
+Checking port drivers...
+WARNING:EDK:4181 - PORT: sys_clk180, CONNECTOR: sys_clk180 - floating connection
+   -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 91 
+WARNING:EDK:4181 - PORT: sys_clk270, CONNECTOR: sys_clk270 - floating connection
+   -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 92 
+WARNING:EDK:4181 - PORT: sys_clk_lock, CONNECTOR: sys_clk_lock - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 93 
+WARNING:EDK:4181 - PORT: sys_clk2x, CONNECTOR: sys_clk2x - floating connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 94 
+WARNING:EDK:4181 - PORT: sys_clk2x90, CONNECTOR: sys_clk2x90 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 95 
+WARNING:EDK:4181 - PORT: sys_clk2x180, CONNECTOR: sys_clk2x180 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 96 
+WARNING:EDK:4181 - PORT: sys_clk2x270, CONNECTOR: sys_clk2x270 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 97 
+WARNING:EDK:4181 - PORT: aux_clk, CONNECTOR: aux_clk - floating connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 98 
+WARNING:EDK:4181 - PORT: aux_clk90, CONNECTOR: aux_clk90 - floating connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 99 
+WARNING:EDK:4181 - PORT: aux_clk180, CONNECTOR: aux_clk180 - floating connection
+   -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 100 
+WARNING:EDK:4181 - PORT: aux_clk270, CONNECTOR: aux_clk270 - floating connection
+   -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 101 
+WARNING:EDK:4181 - PORT: aux_clk2x, CONNECTOR: aux_clk2x - floating connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 102 
+WARNING:EDK:4181 - PORT: aux_clk2x90, CONNECTOR: aux_clk2x90 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 103 
+WARNING:EDK:4181 - PORT: aux_clk2x180, CONNECTOR: aux_clk2x180 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 104 
+WARNING:EDK:4181 - PORT: aux_clk2x270, CONNECTOR: aux_clk2x270 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 105 
+WARNING:EDK:4181 - PORT: idelay_rdy, CONNECTOR: idelay_rdy - floating connection
+   -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 108 
+WARNING:EDK:4181 - PORT: clk_100, CONNECTOR: clk_100 - floating connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 110 
+WARNING:EDK:4181 - PORT: op_reset_o, CONNECTOR: sys_reset - floating connection
+   -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 120 
+WARNING:EDK:4181 - PORT: soft_reset, CONNECTOR: soft_reset - floating connection
+   -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 170 
+WARNING:EDK:4181 - PORT: ctrl_clk90_out, CONNECTOR: adc0_clk90 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 546 
+WARNING:EDK:4181 - PORT: ctrl_clk180_out, CONNECTOR: adc0_clk180 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 550 
+WARNING:EDK:4181 - PORT: ctrl_clk270_out, CONNECTOR: adc0_clk270 - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 551 
+WARNING:EDK:4181 - PORT: ctrl_dcm_locked, CONNECTOR: adc0_dcm_locked - floating
+   connection -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 547 
+
+Performing Clock DRCs...
+INFO:EDK:4060 - INSTANCE: window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM,
+   PARAMETER: c_opb_clk_period_ps - Did not implement clock DRCs for the
+   parameter. Top-level frequency could not be propagated to this IP. Please
+   make sure that you have specified the frequency of the top-level clock port,
+   and that the clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1,
+   PARAMETER: c_opb_clk_period_ps - Did not implement clock DRCs for the
+   parameter. Top-level frequency could not be propagated to this IP. Please
+   make sure that you have specified the frequency of the top-level clock port,
+   and that the clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM,
+   PARAMETER: c_opb_clk_period_ps - Did not implement clock DRCs for the
+   parameter. Top-level frequency could not be propagated to this IP. Please
+   make sure that you have specified the frequency of the top-level clock port,
+   and that the clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1,
+   PARAMETER: c_opb_clk_period_ps - Did not implement clock DRCs for the
+   parameter. Top-level frequency could not be propagated to this IP. Please
+   make sure that you have specified the frequency of the top-level clock port,
+   and that the clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM,
+   PARAMETER: c_opb_clk_period_ps - Did not implement clock DRCs for the
+   parameter. Top-level frequency could not be propagated to this IP. Please
+   make sure that you have specified the frequency of the top-level clock port,
+   and that the clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1,
+   PARAMETER: c_opb_clk_period_ps - Did not implement clock DRCs for the
+   parameter. Top-level frequency could not be propagated to this IP. Please
+   make sure that you have specified the frequency of the top-level clock port,
+   and that the clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM,
+   PARAMETER: c_opb_clk_period_ps - Did not implement clock DRCs for the
+   parameter. Top-level frequency could not be propagated to this IP. Please
+   make sure that you have specified the frequency of the top-level clock port,
+   and that the clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1,
+   PARAMETER: c_opb_clk_period_ps - Did not implement clock DRCs for the
+   parameter. Top-level frequency could not be propagated to this IP. Please
+   make sure that you have specified the frequency of the top-level clock port,
+   and that the clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: window_and_fft_test_v4_even_window1, PARAMETER:
+   c_opb_clk_period_ps - Did not implement clock DRCs for the parameter.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: window_and_fft_test_v4_odd_window1, PARAMETER:
+   c_opb_clk_period_ps - Did not implement clock DRCs for the parameter.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+NETLIST CACHE MISS - Running coregen...
+Release 14.7 - Xilinx CORE Generator P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+All runtime messages will be recorded in
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_subsystem_lo_1_shared_bram_ramblk_wrapper/coreg
+en.log
+Wrote CGP file for project 'coregen'.
+Resolving generics for 'bram'...
+Applying external generics to 'bram'...
+Delivering associated files for 'bram'...
+Delivering EJava files for 'bram'...
+Generating implementation netlist for 'bram'...
+Running synthesis for 'bram'
+Running ngcbuild...
+Writing VEO instantiation template for 'bram'...
+Writing Verilog behavioral simulation model for 'bram'...
+Delivered 1 file into directory
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_subsystem_lo_1_shared_bram_ramblk_wrapper/tmp/_
+cg/bram
+Generating ASY schematic symbol...
+Generating metadata file...
+Generating ISE project file for 'bram'...
+Generating ISE project...
+XCO file found: bram.xco
+XMDF file found: bram_xmdf.tcl
+Adding
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_subsystem_lo_1_shared_bram_ramblk_wrapper/tmp/_
+cg/bram.asy -view all -origin_type imported
+Adding
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_subsystem_lo_1_shared_bram_ramblk_wrapper/tmp/_
+cg/bram.ngc -view all -origin_type created
+Checking file
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/impl
+ementation/window_and_fft_test_v4_subsystem_lo_1_shared_bram_ramblk_wrapper/tmp/
+_cg/bram.ngc" for project device match ...
+File
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/impl
+ementation/window_and_fft_test_v4_subsystem_lo_1_shared_bram_ramblk_wrapper/tmp/
+_cg/bram.ngc" device information matches project device.
+Adding
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_subsystem_lo_1_shared_bram_ramblk_wrapper/tmp/_
+cg/bram.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/i
+   mplementation/window_and_fft_test_v4_subsystem_lo_1_shared_bram_ramblk_wrappe
+   r/tmp/_cg/bram.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_subsystem_lo_1_shared_bram_ramblk_wrapper/tmp/_
+cg/bram.veo -view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/bram"
+Generating README file...
+Generating FLIST file...
+Moving files to output directory...
+Finished moving files to output directory
+Saved CGP file for project 'coregen'.
+NETLIST CACHE SAVE - Copying
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_subsystem_lo_1_shared_bram_ramblk_wrapper/bram.
+ngc to
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/../ca
+che_dir/86bfafda7cfb61274c267bda62dbdf942823ae04.ngc
+NETLIST CACHE MISS - Running coregen...
+Release 14.7 - Xilinx CORE Generator P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+All runtime messages will be recorded in
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_even_window1_ramblk_wrapper/coregen.log
+Wrote CGP file for project 'coregen'.
+Resolving generics for 'bram'...
+Applying external generics to 'bram'...
+Delivering associated files for 'bram'...
+Delivering EJava files for 'bram'...
+Generating implementation netlist for 'bram'...
+Running synthesis for 'bram'
+Running ngcbuild...
+Writing VEO instantiation template for 'bram'...
+Writing Verilog behavioral simulation model for 'bram'...
+Delivered 1 file into directory
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_even_window1_ramblk_wrapper/tmp/_cg/bram
+Generating ASY schematic symbol...
+Generating metadata file...
+Generating ISE project file for 'bram'...
+Generating ISE project...
+XCO file found: bram.xco
+XMDF file found: bram_xmdf.tcl
+Adding
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_even_window1_ramblk_wrapper/tmp/_cg/bram.asy
+-view all -origin_type imported
+Adding
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_even_window1_ramblk_wrapper/tmp/_cg/bram.ngc
+-view all -origin_type created
+Checking file
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/impl
+ementation/window_and_fft_test_v4_even_window1_ramblk_wrapper/tmp/_cg/bram.ngc"
+for project device match ...
+File
+"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/impl
+ementation/window_and_fft_test_v4_even_window1_ramblk_wrapper/tmp/_cg/bram.ngc"
+device information matches project device.
+Adding
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_even_window1_ramblk_wrapper/tmp/_cg/bram.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/i
+   mplementation/window_and_fft_test_v4_even_window1_ramblk_wrapper/tmp/_cg/bram
+   .v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_even_window1_ramblk_wrapper/tmp/_cg/bram.veo
+-view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/bram"
+Generating README file...
+Generating FLIST file...
+Moving files to output directory...
+Finished moving files to output directory
+Saved CGP file for project 'coregen'.
+NETLIST CACHE SAVE - Copying
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_even_window1_ramblk_wrapper/bram.ngc to
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/../ca
+che_dir/cee9db8987637ed239466888985d7bb7f5ca7a68.ngc
+NETLIST CACHE HIT - Copying
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/../ca
+che_dir/cee9db8987637ed239466888985d7bb7f5ca7a68.ngc to
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/imple
+mentation/window_and_fft_test_v4_odd_window1_ramblk_wrapper/bram.ngc
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+IPNAME:window_and_fft_test_v4 INSTANCE:window_and_fft_test_v4_xsg_core_config -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 183 - Copying (BBD-specified) netlist files.
+IPNAME:bram_block_custom
+INSTANCE:window_and_fft_test_v4_subsystem_lo_1_shared_bram_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 258 - Copying (BBD-specified) netlist files.
+IPNAME:adc_interface INSTANCE:window_and_fft_test_v4_adc -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 505 - Copying (BBD-specified) netlist files.
+IPNAME:bram_block_custom INSTANCE:window_and_fft_test_v4_even_window1_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 600 - Copying (BBD-specified) netlist files.
+IPNAME:bram_block_custom INSTANCE:window_and_fft_test_v4_odd_window1_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 657 - Copying (BBD-specified) netlist files.
+
+Managing cache ...
+
+Elaborating instances ...
+IPNAME:bram_block
+INSTANCE:window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 300 - elaborating IP
+IPNAME:bram_block
+INSTANCE:window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 331 - elaborating IP
+IPNAME:bram_block
+INSTANCE:window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 362 - elaborating IP
+IPNAME:bram_block
+INSTANCE:window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 393 - elaborating IP
+IPNAME:bram_block
+INSTANCE:window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 424 - elaborating IP
+IPNAME:bram_block
+INSTANCE:window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 455 - elaborating IP
+IPNAME:bram_block
+INSTANCE:window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 486 - elaborating IP
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 1.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 0.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:opb_adccontroller_0 -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 37 - Running XST synthesis
+INSTANCE:infrastructure_inst -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 71 - Running XST synthesis
+INSTANCE:reset_block_inst -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 113 - Running XST synthesis
+INSTANCE:opb0 -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 123 - Running XST synthesis
+INSTANCE:epb_opb_bridge_inst -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 132 - Running XST synthesis
+INSTANCE:epb_infrastructure_inst -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 149 - Running XST synthesis
+INSTANCE:sys_block_inst -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 158 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_xsg_core_config -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 183 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_1_shared_bram_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 258 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_1_shared_bram -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 276 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_1_shared_bram1_ramif -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 288 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_1_shared_bram1_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 300 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_1_shared_bram1 -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 307 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_2_shared_bram_ramif -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 319 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_2_shared_bram_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 331 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_2_shared_bram -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 338 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_2_shared_bram1_ramif -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 350 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_2_shared_bram1_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 362 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_2_shared_bram1 -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 369 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_3_shared_bram_ramif -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 381 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_3_shared_bram_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 393 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_3_shared_bram -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 400 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_3_shared_bram1_ramif -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 412 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_3_shared_bram1_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 424 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_3_shared_bram1 -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 431 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_4_shared_bram_ramif -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 443 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_4_shared_bram_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 455 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_4_shared_bram -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 462 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_4_shared_bram1_ramif -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 474 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_4_shared_bram1_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 486 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_subsystem_lo_4_shared_bram1 -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 493 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_adc -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 505 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_bypass_pfb -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 576 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_coarse_fft_shift_mask1 -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 588 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_even_window1_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 600 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_even_window1 -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 618 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_gpio -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 630 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_mixer_cnt -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 645 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_odd_window1_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 657 - Running XST synthesis
+INSTANCE:window_and_fft_test_v4_odd_window1 -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 675 - Running XST synthesis
+
+Running NGCBUILD ...
+IPNAME:system_window_and_fft_test_v4_xsg_core_config_wrapper
+INSTANCE:window_and_fft_test_v4_xsg_core_config -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 183 - Running NGCBUILD
+IPNAME:system_window_and_fft_test_v4_subsystem_lo_1_shared_bram_ramblk_wrapper
+INSTANCE:window_and_fft_test_v4_subsystem_lo_1_shared_bram_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 258 - Running NGCBUILD
+IPNAME:system_window_and_fft_test_v4_adc_wrapper
+INSTANCE:window_and_fft_test_v4_adc -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 505 - Running NGCBUILD
+IPNAME:system_window_and_fft_test_v4_even_window1_ramblk_wrapper
+INSTANCE:window_and_fft_test_v4_even_window1_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 600 - Running NGCBUILD
+IPNAME:system_window_and_fft_test_v4_odd_window1_ramblk_wrapper
+INSTANCE:window_and_fft_test_v4_odd_window1_ramblk -
+/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/syste
+m.mhs line 657 - Running NGCBUILD
+INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
+   If any constraint needs to be overridden, this should be done by modifying
+   the data/system.ucf file.
+
+Rebuilding cache ...
+
+Total run time: 376.00 seconds

@@ -1,0 +1,493 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/synthesis/xst_temp_dir/
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_window_and_fft_test_v4_adc_wrapper_xst.prj"
+Verilog Include Directory          : {"/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc6vsx475tff1759-1
+Output File Name                   : "../implementation/system_window_and_fft_test_v4_adc_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_window_and_fft_test_v4_adc_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_fifo.vhd" into library adc_interface_v1_01_a
+Parsing entity <adc_fifo>.
+Parsing architecture <adc_fifo_a> of entity <adc_fifo>.
+Parsing VHDL file "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/ddr_input.vhd" into library adc_interface_v1_01_a
+Parsing entity <ddr_input>.
+Parsing architecture <structural> of entity <ddr_input>.
+Parsing VHDL file "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd" into library adc_interface_v1_01_a
+Parsing entity <adc_interface>.
+Parsing architecture <IMP> of entity <adc_interface>.
+Parsing VHDL file "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/hdl/system_window_and_fft_test_v4_adc_wrapper.vhd" into library work
+Parsing entity <system_window_and_fft_test_v4_adc_wrapper>.
+Parsing architecture <STRUCTURE> of entity <system_window_and_fft_test_v4_adc_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <system_window_and_fft_test_v4_adc_wrapper> (architecture <STRUCTURE>) from library <work>.
+
+Elaborating entity <adc_interface> (architecture <IMP>) from library <adc_interface_v1_01_a>.
+
+Elaborating entity <ddr_input> (architecture <structural>) from library <adc_interface_v1_01_a>.
+WARNING:HDLCompiler:89 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/ddr_input.vhd" Line 26: <iddr> remains a black-box since it has no binding entity.
+
+Elaborating entity <adc_fifo> (architecture <adc_fifo_a>) from library <adc_interface_v1_01_a>.
+WARNING:HDLCompiler:89 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd" Line 175: <obufds> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd" Line 164: <ibufds> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd" Line 186: <bufg> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd" Line 212: <mmcm_base> remains a black-box since it has no binding entity.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_window_and_fft_test_v4_adc_wrapper>.
+    Related source file is "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/hdl/system_window_and_fft_test_v4_adc_wrapper.vhd".
+    Summary:
+	no macro.
+Unit <system_window_and_fft_test_v4_adc_wrapper> synthesized.
+
+Synthesizing Unit <adc_interface>.
+    Related source file is "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd".
+    Set property "KEEP = TRUE" for signal <adc_sync_ddr<3>>.
+    Set property "KEEP = TRUE" for signal <adc_sync_ddr<2>>.
+    Set property "KEEP = TRUE" for signal <adc_sync_ddr<1>>.
+    Set property "KEEP = TRUE" for signal <adc_sync_ddr<0>>.
+WARNING:Xst:647 - Input <dcm_psclk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <dcm_psen> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <dcm_psincdec> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd" line 495: Output port <full> of the instance <ADC_ASYNC_FIFO> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd" line 596: Output port <CLKFBOUTB> of the instance <CLKSHIFT_MMCM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd" line 596: Output port <CLKOUT0B> of the instance <CLKSHIFT_MMCM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd" line 596: Output port <CLKOUT1B> of the instance <CLKSHIFT_MMCM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd" line 596: Output port <CLKOUT2B> of the instance <CLKSHIFT_MMCM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd" line 596: Output port <CLKOUT3B> of the instance <CLKSHIFT_MMCM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd" line 596: Output port <CLKOUT4> of the instance <CLKSHIFT_MMCM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd" line 596: Output port <CLKOUT5> of the instance <CLKSHIFT_MMCM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/adc_interface.vhd" line 596: Output port <CLKOUT6> of the instance <CLKSHIFT_MMCM> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <fifo_rd_en>.
+    Found 1-bit register for signal <adc_sync_ddr<2>>.
+    Found 1-bit register for signal <adc_sync_ddr<1>>.
+    Found 1-bit register for signal <adc_sync_ddr<0>>.
+    Found 1-bit register for signal <adc_sync_capture<3>>.
+    Found 1-bit register for signal <adc_sync_capture<2>>.
+    Found 1-bit register for signal <adc_sync_capture<1>>.
+    Found 1-bit register for signal <adc_sync_capture<0>>.
+    Found 2-bit register for signal <adc_outofrangei_recapture>.
+    Found 2-bit register for signal <adc_outofrangeq_recapture>.
+    Found 32-bit register for signal <adc_datai_recapture>.
+    Found 32-bit register for signal <adc_dataq_recapture>.
+    Found 4-bit register for signal <adc_sync_recapture>.
+    Found 1-bit register for signal <adc_sync_ddr<3>>.
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal adc_sync_ddr<3> may hinder XST clustering optimizations.
+    Summary:
+	inferred  81 D-type flip-flop(s).
+Unit <adc_interface> synthesized.
+
+Synthesizing Unit <ddr_input>.
+    Related source file is "/home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pcores/adc_interface_v1_01_a/hdl/vhdl/ddr_input.vhd".
+    Summary:
+	no macro.
+Unit <ddr_input> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 10
+ 1-bit register                                        : 9
+ 72-bit register                                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 81
+ Flip-Flops                                            : 81
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:1901 - Instance CLKSHIFT_MMCM in unit adc_interface of type MMCM_BASE has been replaced by MMCM_ADV
+INFO:Xst:1901 - Instance ADC_DATA_DDR[0].adc_dataoddq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[1].adc_dataoddq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[2].adc_dataoddq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[3].adc_dataoddq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[4].adc_dataoddq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[5].adc_dataoddq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[6].adc_dataoddq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[7].adc_dataoddq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[0].adc_dataevenq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[1].adc_dataevenq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[2].adc_dataevenq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[3].adc_dataevenq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[4].adc_dataevenq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[5].adc_dataevenq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[6].adc_dataevenq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[7].adc_dataevenq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[0].adc_dataoddi_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[1].adc_dataoddi_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[2].adc_dataoddi_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[3].adc_dataoddi_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[4].adc_dataoddi_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[5].adc_dataoddi_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[6].adc_dataoddi_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[7].adc_dataoddi_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[0].adc_dataeveni_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[1].adc_dataeveni_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[2].adc_dataeveni_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[3].adc_dataeveni_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[4].adc_dataeveni_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[5].adc_dataeveni_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[6].adc_dataeveni_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance ADC_DATA_DDR[7].adc_dataeveni_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance adc_oorq_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+INFO:Xst:1901 - Instance adc_oori_ddr/IDDR_inst in unit adc_interface of type IDDR has been replaced by IDDR_2CLK
+
+Optimizing unit <system_window_and_fft_test_v4_adc_wrapper> ...
+
+Optimizing unit <adc_interface> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_window_and_fft_test_v4_adc_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <system_window_and_fft_test_v4_adc_wrapper> :
+	Found 2-bit shift register for signal <window_and_fft_test_v4_adc/adc_sync_recapture_3>.
+	Found 2-bit shift register for signal <window_and_fft_test_v4_adc/adc_sync_recapture_2>.
+Unit <system_window_and_fft_test_v4_adc_wrapper> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 77
+ Flip-Flops                                            : 77
+# Shift Registers                                      : 2
+ 2-bit shift register                                  : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_window_and_fft_test_v4_adc_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 4
+#      GND                         : 1
+#      INV                         : 2
+#      VCC                         : 1
+# FlipFlops/Latches                : 113
+#      FD                          : 74
+#      FD_1                        : 2
+#      FDC                         : 1
+#      FDE                         : 2
+#      IDDR_2CLK                   : 34
+# Shift Registers                  : 2
+#      SRLC16E                     : 2
+# Clock Buffers                    : 5
+#      BUFG                        : 5
+# IO Buffers                       : 37
+#      IBUFDS                      : 36
+#      OBUFDS                      : 1
+# Others                           : 2
+#      adc_fifo                    : 1
+#      MMCM_ADV                    : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vsx475tff1759-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             113  out of  595200     0%  
+ Number of Slice LUTs:                    4  out of  297600     0%  
+    Number used as Logic:                 2  out of  297600     0%  
+    Number used as Memory:                2  out of  122240     0%  
+       Number used as SRL:                2
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    114
+   Number with an unused Flip Flop:       1  out of    114     0%  
+   Number with an unused LUT:           110  out of    114    96%  
+   Number of fully used LUT-FF pairs:     3  out of    114     2%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                         159
+ Number of bonded IOBs:                  75  out of    840     8%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                5  out of     32    15%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                      | Load  |
+-----------------------------------+--------------------------------------------+-------+
+adc_clk_p                          | MMCM_ADV:CLKOUT0                           | 76    |
+adc_clk_p                          | MMCM_ADV:CLKOUT1                           | 4     |
+ctrl_clk_in                        | NONE(window_and_fft_test_v4_adc/fifo_rd_en)| 1     |
+-----------------------------------+--------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 1.695ns (Maximum Frequency: 589.970MHz)
+   Minimum input arrival time before clock: 0.895ns
+   Maximum output required time after clock: 0.375ns
+   Maximum combinational path delay: 0.402ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'adc_clk_p'
+  Clock period: 1.695ns (frequency: 589.970MHz)
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Delay:               1.695ns (Levels of Logic = 0)
+  Source:            window_and_fft_test_v4_adc/Mshreg_adc_sync_recapture_3 (FF)
+  Destination:       window_and_fft_test_v4_adc/adc_sync_recapture_3 (FF)
+  Source Clock:      adc_clk_p rising
+  Destination Clock: adc_clk_p rising
+
+  Data Path: window_and_fft_test_v4_adc/Mshreg_adc_sync_recapture_3 to window_and_fft_test_v4_adc/adc_sync_recapture_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRLC16E:CLK->Q        1   1.684   0.000  window_and_fft_test_v4_adc/Mshreg_adc_sync_recapture_3 (window_and_fft_test_v4_adc/Mshreg_adc_sync_recapture_3)
+     FDE:D                     0.011          window_and_fft_test_v4_adc/adc_sync_recapture_3
+    ----------------------------------------
+    Total                      1.695ns (1.695ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'adc_clk_p'
+  Total number of paths / destination ports: 76 / 72
+-------------------------------------------------------------------------
+Offset:              0.433ns (Levels of Logic = 1)
+  Source:            adc_sync_p (PAD)
+  Destination:       window_and_fft_test_v4_adc/adc_sync_ddr_3 (FF)
+  Destination Clock: adc_clk_p rising
+
+  Data Path: adc_sync_p to window_and_fft_test_v4_adc/adc_sync_ddr_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUFDS:I->O           4   0.003   0.419  window_and_fft_test_v4_adc/IBUFDS_SYNC (window_and_fft_test_v4_adc/adc_sync)
+     FD:D                      0.011          window_and_fft_test_v4_adc/adc_sync_ddr_3
+    ----------------------------------------
+    Total                      0.433ns (0.014ns logic, 0.419ns route)
+                                       (3.2% logic, 96.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ctrl_clk_in'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              0.895ns (Levels of Logic = 1)
+  Source:            window_and_fft_test_v4_adc/ADC_ASYNC_FIFO:empty (PAD)
+  Destination:       window_and_fft_test_v4_adc/fifo_rd_en (FF)
+  Destination Clock: ctrl_clk_in rising
+
+  Data Path: window_and_fft_test_v4_adc/ADC_ASYNC_FIFO:empty to window_and_fft_test_v4_adc/fifo_rd_en
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    adc_fifo:empty         1   0.000   0.399  window_and_fft_test_v4_adc/ADC_ASYNC_FIFO (window_and_fft_test_v4_adc/fifo_empty)
+     INV:I->O              1   0.086   0.399  window_and_fft_test_v4_adc/fifo_empty_INV_3_o1_INV_0 (window_and_fft_test_v4_adc/fifo_empty_INV_3_o)
+     FDC:D                     0.011          window_and_fft_test_v4_adc/fifo_rd_en
+    ----------------------------------------
+    Total                      0.895ns (0.097ns logic, 0.798ns route)
+                                       (10.8% logic, 89.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'adc_clk_p'
+  Total number of paths / destination ports: 72 / 72
+-------------------------------------------------------------------------
+Offset:              0.375ns (Levels of Logic = 0)
+  Source:            window_and_fft_test_v4_adc/adc_datai_recapture_31 (FF)
+  Destination:       window_and_fft_test_v4_adc/ADC_ASYNC_FIFO:din<71> (PAD)
+  Source Clock:      adc_clk_p rising
+
+  Data Path: window_and_fft_test_v4_adc/adc_datai_recapture_31 to window_and_fft_test_v4_adc/ADC_ASYNC_FIFO:din<71>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               0   0.375   0.000  window_and_fft_test_v4_adc/adc_datai_recapture_31 (window_and_fft_test_v4_adc/adc_datai_recapture_31)
+    adc_fifo:din<71>           0.000          window_and_fft_test_v4_adc/ADC_ASYNC_FIFO
+    ----------------------------------------
+    Total                      0.375ns (0.375ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ctrl_clk_in'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.375ns (Levels of Logic = 0)
+  Source:            window_and_fft_test_v4_adc/fifo_rd_en (FF)
+  Destination:       window_and_fft_test_v4_adc/ADC_ASYNC_FIFO:rd_en (PAD)
+  Source Clock:      ctrl_clk_in rising
+
+  Data Path: window_and_fft_test_v4_adc/fifo_rd_en to window_and_fft_test_v4_adc/ADC_ASYNC_FIFO:rd_en
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              0   0.375   0.000  window_and_fft_test_v4_adc/fifo_rd_en (window_and_fft_test_v4_adc/fifo_rd_en)
+    adc_fifo:rd_en             0.000          window_and_fft_test_v4_adc/ADC_ASYNC_FIFO
+    ----------------------------------------
+    Total                      0.375ns (0.375ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 145 / 111
+-------------------------------------------------------------------------
+Delay:               0.402ns (Levels of Logic = 1)
+  Source:            adc_outofrangei_p (PAD)
+  Destination:       window_and_fft_test_v4_adc/adc_oori_ddr/IDDR_inst:D (PAD)
+
+  Data Path: adc_outofrangei_p to window_and_fft_test_v4_adc/adc_oori_ddr/IDDR_inst:D
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUFDS:I->O           1   0.003   0.399  window_and_fft_test_v4_adc/IBUFDS_OUTOFRANGEI (window_and_fft_test_v4_adc/adc_outofrangei)
+    IDDR_2CLK:D                0.000          window_and_fft_test_v4_adc/adc_oori_ddr/IDDR_inst
+    ----------------------------------------
+    Total                      0.402ns (0.003ns logic, 0.399ns route)
+                                       (0.7% logic, 99.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock adc_clk_p
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+adc_clk_p      |    1.695|    0.778|         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.19 secs
+ 
+--> 
+
+
+Total memory usage is 422476 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :   46 (   0 filtered)
+

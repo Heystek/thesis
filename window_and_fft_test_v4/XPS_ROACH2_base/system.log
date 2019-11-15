@@ -1,0 +1,329 @@
+Saved contents of this file to system_log.14.6 during revup to EDK 14.7.
+
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 276 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 307 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 338 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 369 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 400 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 431 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 462 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 493 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_even_window1 - Superseded core for architecture
+   'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 618 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_odd_window1 - Superseded core for architecture
+   'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 675 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 276 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 307 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 338 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 369 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 400 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 431 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 462 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1 - Superseded core for
+   architecture 'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 493 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_even_window1 - Superseded core for architecture
+   'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 618 
+WARNING:EDK - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   window_and_fft_test_v4_odd_window1 - Superseded core for architecture
+   'virtex6sx' -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/sy
+   stem.mhs line 675 
+
+Overriding IP level properties ...
+
+Computing clock values...
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   window_and_fft_test_v4_even_window1:c_opb_clk_period_ps. Top-level frequency
+   could not be propagated to this IP. Please make sure that you have specified
+   the frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK - Did not update the value for parameter:
+   window_and_fft_test_v4_odd_window1:c_opb_clk_period_ps. Top-level frequency
+   could not be propagated to this IP. Please make sure that you have specified
+   the frequency of the top-level clock port, and that the clocks are properly
+   connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - IPNAME: opb_v20, INSTANCE:opb0 - tool is overriding PARAMETER
+   C_NUM_MASTERS value to 1 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 74 
+INFO:EDK - IPNAME: opb_v20, INSTANCE:opb0 - tool is overriding PARAMETER
+   C_NUM_SLAVES value to 15 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 75 
+INFO:EDK - IPNAME: bram_block,
+   INSTANCE:window_and_fft_test_v4_Subsystem_lo_1_Shared_BRAM1_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: bram_block,
+   INSTANCE:window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: bram_block,
+   INSTANCE:window_and_fft_test_v4_Subsystem_lo_2_Shared_BRAM1_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: bram_block,
+   INSTANCE:window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: bram_block,
+   INSTANCE:window_and_fft_test_v4_Subsystem_lo_3_Shared_BRAM1_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: bram_block,
+   INSTANCE:window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: bram_block,
+   INSTANCE:window_and_fft_test_v4_Subsystem_lo_4_Shared_BRAM1_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /home/heystek/heystek_thesis/thesis/window_and_fft_test_v4/XPS_ROACH2_base/pc
+   ores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 78 
+
+Checking platform address map ...
+
+XPS% Evaluating file run_xps.tcl
